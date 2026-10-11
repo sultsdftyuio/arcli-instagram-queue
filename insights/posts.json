@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-11T17:44:10.345Z",
+  "posts": [
+    {
+      "id": "18217483705354057",
+      "type": "VIDEO",
+      "postedAt": "2026-10-08T21:34:26+0000",
+      "permalink": "https://www.instagram.com/reel/DeP6OdGIuxF/",
+      "caption": "Arcli.tech",
+      "views": 34,
+      "reach": 32,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 2292,
+      "reels_skip_rate": 84.8
+    },
+    {
+      "id": "18170054275458327",
+      "type": "VIDEO",
+      "postedAt": "2026-10-09T17:19:26+0000",
+      "permalink": "https://www.instagram.com/reel/DeSB2vuINn7/",
+      "caption": "",
+      "views": 4,
+      "reach": 2,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 4233,
+      "reels_skip_rate": 100
+    },
+    {
+      "id": "18138986887535164",
+      "type": "VIDEO",
+      "postedAt": "2026-10-10T20:19:58+0000",
+      "permalink": "https://www.instagram.com/reel/DeU7UVUo9Mz/",
+      "caption": "",
+      "views": 1,
+      "reach": 1,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 2583,
+      "reels_skip_rate": 100
+    }
+  ]
+}
