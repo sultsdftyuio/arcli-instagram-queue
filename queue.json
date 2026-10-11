@@ -1,18 +1,3 @@
 {
-  "posts": [
-    {
-      "id": "arcli-glass-ribbon",
-      "file": "arcli-glass-ribbon.mp4",
-      "caption": "Anyone can hand you a name. The hard part is knowing why.\n\nArcli starts from your website and comes back with a prospect file: why it fits, where that came from, how to act on it, and what is still unknown.\n\nFree brief at arcli.tech\n\n#b2bsales #prospecting #founderledsales #outbound #startups",
-      "publishAt": "2026-10-12T12:00:00+04:00",
-      "status": "draft"
-    },
-    {
-      "id": "arcli-reasons",
-      "file": "arcli-reasons.mp4",
-      "caption": "Lists are easy. Reasons are rare.\n\nStart with your website. Every prospect Arcli finds comes with four answers: fit, source, route, and what is still unknown.\n\narcli.tech\n\n#b2bsales #salesprospecting #saas #founders #leadgeneration",
-      "publishAt": "2026-10-12T19:00:00+04:00",
-      "status": "draft"
-    }
-  ]
+  "posts": []
 }
