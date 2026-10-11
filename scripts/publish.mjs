@@ -5,6 +5,7 @@ import { root, config, queue, saveQueue, ig, account, mediaUrl, requireToken } f
 
 const dryRun = process.argv.includes("--dry-run");
 const pollMs = Number(process.env.IG_POLL_MS || 10_000);
+const mediaWaitMs = Number(process.env.IG_MEDIA_WAIT_MS ?? 300_000);
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 let recentMedia;
@@ -47,7 +48,12 @@ async function publish(post) {
     const live = await findLive(post);
     if (live) return markPosted(post, live);
 
-    const head = await fetch(mediaUrl(post.file), { method: "HEAD" });
+    // A post pushed moments ago may not be served yet: GitHub Pages takes a minute or two.
+    let head = await fetch(mediaUrl(post.file), { method: "HEAD" });
+    for (const until = Date.now() + mediaWaitMs; !head.ok && Date.now() < until; ) {
+      await sleep(15_000);
+      head = await fetch(mediaUrl(post.file), { method: "HEAD" });
+    }
     if (!head.ok) {
       console.log(`${post.id}: ${mediaUrl(post.file)} returned ${head.status}, will retry next run`);
       return;

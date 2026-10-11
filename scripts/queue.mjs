@@ -1,5 +1,5 @@
 // Manage queue.json.
-//   node scripts/queue.mjs add <video> --caption-file <txt> [--id slug] [--at 2026-10-12T19:00] [--cover image.jpg] [--approve]
+//   node scripts/queue.mjs add <video> --caption-file <txt> [--id slug] [--at 2026-10-12T19:00 | --at now] [--cover image.jpg] [--thumb-ms 2600] [--approve]
 //   node scripts/queue.mjs approve <id> [<id>...]
 //   node scripts/queue.mjs remove <id>
 //   node scripts/queue.mjs list
@@ -17,6 +17,7 @@ const { positionals, values } = parseArgs({
     id: { type: "string" },
     at: { type: "string" },
     cover: { type: "string" },
+    "thumb-ms": { type: "string" },
     approve: { type: "boolean", default: false },
   },
 });
@@ -94,7 +95,8 @@ if (command === "add") {
   const problems = [...checkVideo(video), ...checkCaption(caption)];
   if (problems.length) fail(`Not added:\n- ${problems.join("\n- ")}`);
 
-  let publishAt = values.at ?? nextSlot();
+  // "now" is a moment ahead, so it is due by the time the publish workflow starts
+  let publishAt = values.at === "now" ? new Date(Date.now() + 2000).toISOString() : values.at ?? nextSlot();
   if (!/(Z|[+-]\d\d:\d\d)$/.test(publishAt)) publishAt += (publishAt.length === 16 ? ":00" : "") + config.utcOffset;
   if (Number.isNaN(Date.parse(publishAt))) fail(`Cannot read the time "${values.at}".`);
   if (Date.parse(publishAt) <= Date.now()) fail(`${publishAt} is in the past.`);
@@ -104,6 +106,8 @@ if (command === "add") {
   const post = { id, file: `${id}.mp4`, caption, publishAt, status: values.approve ? "approved" : "draft" };
   // Remux only: Instagram needs the moov atom at the front of the file.
   execFileSync("ffmpeg", ["-v", "error", "-y", "-i", video, "-c", "copy", "-movflags", "+faststart", fileURLToPath(new URL(`media/${post.file}`, root))]);
+  // the frame Instagram shows as the cover, in milliseconds from the start
+  if (values["thumb-ms"]) post.thumbOffsetMs = Number(values["thumb-ms"]);
   if (values.cover) {
     if (!/\.jpe?g$/i.test(values.cover)) fail("Cover must be a JPEG.");
     post.cover = `${id}.jpg`;

@@ -2,7 +2,12 @@ name: Publish due posts
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # off the quarter hours, where GitHub's scheduler is busiest and drops runs
+    - cron: "7,22,37,52 * * * *"
+  # a change to the queue is published straight away if it is already due
+  push:
+    branches: [main]
+    paths: [queue.json]
   workflow_dispatch:
     inputs:
       dry_run:
