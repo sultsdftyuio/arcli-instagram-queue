@@ -1,0 +1,45 @@
+name: Publish due posts
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Only show what would be published
+        type: boolean
+        default: false
+
+# One run at a time, so two runs can never publish the same post.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Publish
+        run: node scripts/publish.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+
+      - name: Save queue state
+        if: always()
+        run: |
+          git config user.name "arcli-queue"
+          git config user.email "arcli-queue@users.noreply.github.com"
+          git add -A queue.json media
+          if ! git diff --cached --quiet; then
+            git commit -m "Update queue"
+            git pull --rebase
+            git push
+          fi

@@ -1,0 +1,26 @@
+name: Instagram token
+
+on:
+  schedule:
+    # The token lasts 60 days; refreshing twice a month leaves room for a failed run.
+    - cron: "0 3 1,15 * *"
+  workflow_dispatch:
+    inputs:
+      action:
+        description: check shows the account, refresh renews the token
+        type: choice
+        options: [check, refresh]
+        default: check
+
+jobs:
+  token:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/token.mjs ${{ inputs.action || 'refresh' }}
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
