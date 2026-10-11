@@ -8,6 +8,7 @@ Posts approved Reels to the Arcli Instagram account at scheduled times, using th
 - `config.json`: post times (`slots`, in the `utcOffset` time zone), API version, and the public address of `media/`.
 - `.github/workflows/publish.yml`: runs every 15 minutes and publishes whatever is approved and due.
 - `.github/workflows/token.yml`: renews the 60-day access token twice a month.
+- `.github/workflows/insights.yml`: once a day, saves each recent post's views, reach, saves, shares and watch time to `insights/posts.json`, most-viewed first. The repository is public, so these numbers are too. Needs the `instagram_business_manage_insights` permission on the token.
 
 Only `approved` posts are ever published. A post more than `maxLateHours` late is marked `missed` instead of going out at the wrong time.
 
