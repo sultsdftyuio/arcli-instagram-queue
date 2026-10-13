@@ -1,6 +1,22 @@
 {
-  "fetchedAt": "2026-10-12T08:41:26.882Z",
+  "fetchedAt": "2026-10-13T09:00:36.059Z",
   "posts": [
+    {
+      "id": "18099742634635967",
+      "type": "VIDEO",
+      "postedAt": "2026-10-12T05:53:00+0000",
+      "permalink": "https://www.instagram.com/reel/DeYhq5UjqI2/",
+      "caption": "Every hour spent digging for who to contact is an hour you're not talking to cus",
+      "views": 174,
+      "reach": 162,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 1690,
+      "reels_skip_rate": 97
+    },
     {
       "id": "18217483705354057",
       "type": "VIDEO",
@@ -14,7 +30,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 2488,
+      "ig_reels_avg_watch_time": 2559,
       "reels_skip_rate": 84.8
     },
     {
@@ -23,15 +39,31 @@
       "postedAt": "2026-10-11T20:55:38+0000",
       "permalink": "https://www.instagram.com/reel/DeXkLH6gPDg/",
       "caption": "A score like 94% says nothing about where it came from.",
-      "views": 5,
-      "reach": 4,
+      "views": 16,
+      "reach": 13,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 9099,
-      "reels_skip_rate": 25
+      "ig_reels_avg_watch_time": 5242,
+      "reels_skip_rate": 57.1
+    },
+    {
+      "id": "17912898570284510",
+      "type": "VIDEO",
+      "postedAt": "2026-10-12T15:09:57+0000",
+      "permalink": "https://www.instagram.com/reel/DeZhaM8joLS/",
+      "caption": "Zapier's first customers came from other companies' help forums.",
+      "views": 4,
+      "reach": 5,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 2773,
+      "reels_skip_rate": 100
     },
     {
       "id": "18170054275458327",
@@ -46,23 +78,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 3686,
-      "reels_skip_rate": 100
-    },
-    {
-      "id": "18099742634635967",
-      "type": "VIDEO",
-      "postedAt": "2026-10-12T05:53:00+0000",
-      "permalink": "https://www.instagram.com/reel/DeYhq5UjqI2/",
-      "caption": "Every hour spent digging for who to contact is an hour you're not talking to cus",
-      "views": 2,
-      "reach": 0,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 0,
-      "ig_reels_avg_watch_time": 9717,
+      "ig_reels_avg_watch_time": 3587,
       "reels_skip_rate": 100
     },
     {
@@ -78,8 +94,24 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 3090,
+      "ig_reels_avg_watch_time": 2742,
       "reels_skip_rate": 100
+    },
+    {
+      "id": "17943101226369598",
+      "type": "VIDEO",
+      "postedAt": "2026-10-12T17:50:04+0000",
+      "permalink": "https://www.instagram.com/reel/DeZzvSwEQP_/",
+      "caption": "This email gets ignored.",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 2618,
+      "reels_skip_rate": 0
     }
   ]
 }
