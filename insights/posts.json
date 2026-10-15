@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T07:08:48.824Z",
+  "fetchedAt": "2026-10-15T07:01:08.168Z",
   "posts": [
     {
       "id": "18099742634635967",
@@ -14,7 +14,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 1719,
+      "ig_reels_avg_watch_time": 1715,
       "reels_skip_rate": 97
     },
     {
@@ -46,7 +46,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 4973,
+      "ig_reels_avg_watch_time": 4780,
       "reels_skip_rate": 57.1
     },
     {
@@ -62,7 +62,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 2540,
+      "ig_reels_avg_watch_time": 2370,
       "reels_skip_rate": 100
     },
     {
@@ -110,7 +110,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 2618,
+      "ig_reels_avg_watch_time": 3254,
       "reels_skip_rate": 0
     }
   ]
