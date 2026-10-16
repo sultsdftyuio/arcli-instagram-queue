@@ -1,6 +1,22 @@
 {
-  "fetchedAt": "2026-10-15T07:01:08.168Z",
+  "fetchedAt": "2026-10-16T06:46:12.335Z",
   "posts": [
+    {
+      "id": "18015386258752332",
+      "type": "VIDEO",
+      "postedAt": "2026-10-15T21:23:44+0000",
+      "permalink": "https://www.instagram.com/reel/Deh6lkqiQ5q/",
+      "caption": "be honest… how many hearts did you lose on level 1? 💔🎮",
+      "views": 412,
+      "reach": 300,
+      "likes": 3,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 4,
+      "ig_reels_avg_watch_time": 10238,
+      "reels_skip_rate": 39.2
+    },
     {
       "id": "18099742634635967",
       "type": "VIDEO",
@@ -14,8 +30,24 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 1715,
+      "ig_reels_avg_watch_time": 1787,
       "reels_skip_rate": 97
+    },
+    {
+      "id": "18371847547213468",
+      "type": "VIDEO",
+      "postedAt": "2026-10-15T19:26:05+0000",
+      "permalink": "https://www.instagram.com/reel/DehtG6ggO9h/",
+      "caption": "Be honest… are you still fishing in the bathtub? 🛁",
+      "views": 70,
+      "reach": 62,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 5087,
+      "reels_skip_rate": 57.1
     },
     {
       "id": "18217483705354057",
@@ -30,7 +62,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 2559,
+      "ig_reels_avg_watch_time": 2533,
       "reels_skip_rate": 84.8
     },
     {
@@ -46,7 +78,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 4780,
+      "ig_reels_avg_watch_time": 4483,
       "reels_skip_rate": 57.1
     },
     {
@@ -62,7 +94,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 2370,
+      "ig_reels_avg_watch_time": 2528,
       "reels_skip_rate": 100
     },
     {
@@ -78,8 +110,24 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 3587,
+      "ig_reels_avg_watch_time": 3049,
       "reels_skip_rate": 100
+    },
+    {
+      "id": "17912067453471825",
+      "type": "VIDEO",
+      "postedAt": "2026-10-15T17:06:12+0000",
+      "permalink": "https://www.instagram.com/reel/DehdGNAFbzb/",
+      "caption": "They actually picked up. Then they asked: \"Why are you calling me?\"",
+      "views": 2,
+      "reach": 2,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 17061,
+      "reels_skip_rate": 50
     },
     {
       "id": "18138986887535164",
@@ -94,7 +142,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 2742,
+      "ig_reels_avg_watch_time": 2529,
       "reels_skip_rate": 100
     },
     {
@@ -110,7 +158,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 3254,
+      "ig_reels_avg_watch_time": 3543,
       "reels_skip_rate": 0
     }
   ]
