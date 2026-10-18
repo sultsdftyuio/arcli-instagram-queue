@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T06:37:16.768Z",
+  "fetchedAt": "2026-10-18T06:59:37.193Z",
   "posts": [
     {
       "id": "18015386258752332",
@@ -7,15 +7,15 @@
       "postedAt": "2026-10-15T21:23:44+0000",
       "permalink": "https://www.instagram.com/reel/Deh6lkqiQ5q/",
       "caption": "be honest… how many hearts did you lose on level 1? 💔🎮",
-      "views": 539,
-      "reach": 389,
+      "views": 551,
+      "reach": 396,
       "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 1,
       "total_interactions": 4,
-      "ig_reels_avg_watch_time": 10095,
-      "reels_skip_rate": 39.7
+      "ig_reels_avg_watch_time": 10164,
+      "reels_skip_rate": 39.2
     },
     {
       "id": "18099742634635967",
@@ -46,8 +46,24 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 5283,
+      "ig_reels_avg_watch_time": 5260,
       "reels_skip_rate": 53
+    },
+    {
+      "id": "18373966543212335",
+      "type": "VIDEO",
+      "postedAt": "2026-10-17T21:56:19+0000",
+      "permalink": "https://www.instagram.com/reel/DenH44MkyG0/",
+      "caption": "level 2 🐉 what line would you have thrown at the dragon?",
+      "views": 77,
+      "reach": 68,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 5498,
+      "reels_skip_rate": 58.6
     },
     {
       "id": "18217483705354057",
@@ -126,7 +142,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 12845,
+      "ig_reels_avg_watch_time": 11537,
       "reels_skip_rate": 33.3
     },
     {
