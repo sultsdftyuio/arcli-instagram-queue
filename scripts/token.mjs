@@ -25,7 +25,26 @@ if (command === "check") {
     stdio: ["pipe", "inherit", "inherit"],
   });
   console.log(`Token refreshed, valid for ${Math.round(fresh.expires_in / 86_400)} more days.`);
+} else if (command === "threads") {
+  // Threads tokens also last 60 days; renew while still valid and store the new one.
+  if (!process.env.THREADS_ACCESS_TOKEN) {
+    console.log("Threads is not connected, nothing to refresh.");
+    process.exit(0);
+  }
+  const host = process.env.THREADS_API_BASE || "https://graph.threads.net";
+  const res = await fetch(`${host}/refresh_access_token?grant_type=th_refresh_token&access_token=${process.env.THREADS_ACCESS_TOKEN}`);
+  const fresh = await res.json();
+  if (!res.ok || !fresh.access_token) {
+    console.error(`Threads refresh failed: ${fresh.error?.message ?? res.status}`);
+    process.exit(1);
+  }
+  console.log(`::add-mask::${fresh.access_token}`);
+  execFileSync("gh", ["secret", "set", "THREADS_ACCESS_TOKEN", "--repo", process.env.GITHUB_REPOSITORY], {
+    input: fresh.access_token,
+    stdio: ["pipe", "inherit", "inherit"],
+  });
+  console.log(`Threads token refreshed, valid for ${Math.round(fresh.expires_in / 86_400)} more days.`);
 } else {
-  console.error("Commands: check, refresh");
+  console.error("Commands: check, refresh, threads");
   process.exit(1);
 }

@@ -2,7 +2,12 @@
   "apiVersion": "v25.0",
   "mediaBaseUrl": "https://sultsdftyuio.github.io/arcli-instagram-queue",
   "utcOffset": "+04:00",
-  "slots": ["12:00", "19:00"],
+  "slots": [
+    "12:00",
+    "19:00"
+  ],
   "maxLateHours": 6,
-  "deleteMediaAfterPost": true
+  "deleteMediaAfterPost": true,
+  "crossPost": [],
+  "linkedinVersion": "202609"
 }

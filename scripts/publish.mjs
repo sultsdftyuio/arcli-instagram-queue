@@ -26,7 +26,8 @@ function markPosted(post, media = {}) {
   if (media.permalink) post.permalink = media.permalink;
   delete post.containerId;
   delete post.error;
-  if (config.deleteMediaAfterPost) {
+  // crosspost.mjs deletes the file instead once the other platforms have it
+  if (config.deleteMediaAfterPost && !post.cross) {
     for (const file of [post.file, post.cover]) if (file) rmSync(new URL(`media/${file}`, root), { force: true });
   }
   console.log(`${post.id}: posted ${post.permalink ?? ""}`);

@@ -67,3 +67,28 @@ A change only takes effect once it is committed and pushed. Pull first, because 
 - GitHub's timer can run 5 to 30 minutes late at busy times.
 - If a run fails (rejected video, expired token), GitHub emails the repository owner and the post is marked `failed` with the reason.
 - Each posted video stays in the repository's git history (about 15 MB each). At two posts a day that is roughly 1 GB a month, so the storage needs revisiting after a few months.
+
+## Other platforms (Threads, YouTube Shorts, TikTok, LinkedIn)
+
+Once a Reel is live on Instagram, the same publish run sends it to each platform listed in
+`crossPost` in `config.json` (`scripts/crosspost.mjs`, code in `scripts/platforms.mjs`). The queue
+records each one under the post's `cross` field: `posted`, `drafted` (TikTok), `failed` after three
+tries, or `skipped` when that platform is not connected. The video file is deleted only when every
+platform is done. `queue.mjs add ... --only instagram` posts a Reel to Instagram alone.
+
+To connect a platform:
+1. Create a developer app (steps below) with this redirect URL:
+   `https://sultsdftyuio.github.io/arcli-instagram-queue/callback.html`
+2. Run `node scripts/connect.mjs <threads|youtube|tiktok|linkedin>` and follow it. It writes
+   the values to `.secrets/<platform>.txt` (git-ignored); nothing is printed.
+3. Add each line of that file as a repository secret (Settings > Secrets and variables > Actions).
+4. Add the platform's name to `crossPost` in `config.json`, commit and push.
+
+| Platform | Developer app | What to know |
+|---|---|---|
+| Threads | developers.facebook.com: create an app with the Threads use case; permissions `threads_basic`, `threads_content_publish`; add the Threads account as a tester | Token lasts 60 days; the token workflow renews it with the Instagram one. Caption is cut to 500 characters. |
+| YouTube Shorts | console.cloud.google.com: a project with the YouTube Data API v3, OAuth consent screen (External, then **Publish app** so the refresh token does not expire after 7 days), an OAuth client of type Web application | Until the project passes Google's API audit (a free form), uploads are forced to private; the queue notes this. About 6 uploads a day on the default quota. |
+| TikTok | developers.tiktok.com: an app with Login Kit and Content Posting API, scopes `user.info.basic`, `video.upload` | Before TikTok's review the Reel goes to your TikTok inbox as a draft: open the notification, add the caption and post. The refresh token rotates and is saved back automatically (needs `GH_PAT`). |
+| LinkedIn | linkedin.com/developers: an app with the products "Sign In with LinkedIn using OpenID Connect" and "Share on LinkedIn" | Posts as you (a company page needs separate approval). The token lasts 60 days with no automatic renewal: run `connect.mjs linkedin` again before it runs out. |
+
+`node test/crosspost-mock.mjs` runs the whole flow against a local mock of all four APIs.

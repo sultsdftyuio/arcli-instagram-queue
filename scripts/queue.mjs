@@ -18,6 +18,7 @@ const { positionals, values } = parseArgs({
     at: { type: "string" },
     cover: { type: "string" },
     "thumb-ms": { type: "string" },
+    only: { type: "string" },
     approve: { type: "boolean", default: false },
   },
 });
@@ -108,6 +109,9 @@ if (command === "add") {
   execFileSync("ffmpeg", ["-v", "error", "-y", "-i", video, "-c", "copy", "-movflags", "+faststart", fileURLToPath(new URL(`media/${post.file}`, root))]);
   // the frame Instagram shows as the cover, in milliseconds from the start
   if (values["thumb-ms"]) post.thumbOffsetMs = Number(values["thumb-ms"]);
+  // the other platforms this Reel follows Instagram to (config.crossPost, or --only instagram for none)
+  const cross = values.only === "instagram" ? [] : config.crossPost ?? [];
+  if (cross.length) post.cross = Object.fromEntries(cross.map((name) => [name, "pending"]));
   if (values.cover) {
     if (!/\.jpe?g$/i.test(values.cover)) fail("Cover must be a JPEG.");
     post.cover = `${id}.jpg`;
@@ -140,6 +144,7 @@ if (command === "add") {
   if (!queue.posts.length) console.log("Queue is empty.");
   for (const post of queue.posts) {
     console.log(`${post.status.padEnd(9)} ${post.publishAt}  ${post.id}${post.error ? `  (${post.error})` : ""}${post.permalink ? `  ${post.permalink}` : ""}`);
+    for (const [name, state] of Object.entries(post.cross ?? {})) console.log(`          ${name}: ${state}${post.crossUrl?.[name] ? `  ${post.crossUrl[name]}` : ""}${post.crossError?.[name] ? `  (${post.crossError[name]})` : ""}`);
   }
 } else {
   fail("Commands: add, approve, remove, list");
