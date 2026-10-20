@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T07:21:58.474Z",
+  "fetchedAt": "2026-10-20T07:13:13.996Z",
   "posts": [
     {
       "id": "17934414204147663",
@@ -7,15 +7,15 @@
       "postedAt": "2026-10-18T11:35:18+0000",
       "permalink": "https://www.instagram.com/reel/DeolnkuDVHr/",
       "caption": "be honest… how many coins did you throw at people who weren't even looking? 🪙",
-      "views": 1002,
-      "reach": 708,
-      "likes": 8,
+      "views": 1747,
+      "reach": 1304,
+      "likes": 17,
       "comments": 0,
       "shares": 0,
-      "saved": 3,
-      "total_interactions": 11,
-      "ig_reels_avg_watch_time": 8307,
-      "reels_skip_rate": 40.6
+      "saved": 7,
+      "total_interactions": 24,
+      "ig_reels_avg_watch_time": 8880,
+      "reels_skip_rate": 41.8
     },
     {
       "id": "18015386258752332",
@@ -24,14 +24,14 @@
       "permalink": "https://www.instagram.com/reel/Deh6lkqiQ5q/",
       "caption": "be honest… how many hearts did you lose on level 1? 💔🎮",
       "views": 553,
-      "reach": 397,
+      "reach": 398,
       "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 1,
       "total_interactions": 4,
-      "ig_reels_avg_watch_time": 10678,
-      "reels_skip_rate": 39
+      "ig_reels_avg_watch_time": 10654,
+      "reels_skip_rate": 39.3
     },
     {
       "id": "18099742634635967",
@@ -55,15 +55,15 @@
       "postedAt": "2026-10-18T09:55:44+0000",
       "permalink": "https://www.instagram.com/reel/DeoaN-mFBZf/",
       "caption": "we've all been this claw 🕹️",
-      "views": 141,
-      "reach": 108,
+      "views": 143,
+      "reach": 111,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 6111,
-      "reels_skip_rate": 49.1
+      "ig_reels_avg_watch_time": 6038,
+      "reels_skip_rate": 50
     },
     {
       "id": "18373966543212335",
@@ -72,14 +72,14 @@
       "permalink": "https://www.instagram.com/reel/DenH44MkyG0/",
       "caption": "level 2 🐉 what line would you have thrown at the dragon?",
       "views": 126,
-      "reach": 104,
+      "reach": 105,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 6967,
-      "reels_skip_rate": 50.5
+      "ig_reels_avg_watch_time": 6923,
+      "reels_skip_rate": 51.4
     },
     {
       "id": "18371847547213468",
@@ -88,14 +88,14 @@
       "permalink": "https://www.instagram.com/reel/DehtG6ggO9h/",
       "caption": "Be honest… are you still fishing in the bathtub? 🛁",
       "views": 113,
-      "reach": 100,
+      "reach": 101,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 5153,
-      "reels_skip_rate": 52.5
+      "ig_reels_avg_watch_time": 5119,
+      "reels_skip_rate": 53.5
     },
     {
       "id": "18217483705354057",
@@ -110,8 +110,24 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 2533,
+      "ig_reels_avg_watch_time": 2513,
       "reels_skip_rate": 84.8
+    },
+    {
+      "id": "18572189071074371",
+      "type": "VIDEO",
+      "postedAt": "2026-10-18T19:03:40+0000",
+      "permalink": "https://www.instagram.com/reel/DepY8ddEavP/",
+      "caption": "we've all paid for a \"94% SURE\" card 🔮",
+      "views": 28,
+      "reach": 21,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 5771,
+      "reels_skip_rate": 61.9
     },
     {
       "id": "18286474810292499",
@@ -144,22 +160,6 @@
       "total_interactions": 0,
       "ig_reels_avg_watch_time": 2238,
       "reels_skip_rate": 100
-    },
-    {
-      "id": "18572189071074371",
-      "type": "VIDEO",
-      "postedAt": "2026-10-18T19:03:40+0000",
-      "permalink": "https://www.instagram.com/reel/DepY8ddEavP/",
-      "caption": "we've all paid for a \"94% SURE\" card 🔮",
-      "views": 4,
-      "reach": 3,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 0,
-      "ig_reels_avg_watch_time": 9381,
-      "reels_skip_rate": 25
     },
     {
       "id": "18170054275458327",
@@ -222,7 +222,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 3224,
+      "ig_reels_avg_watch_time": 3548,
       "reels_skip_rate": 0
     }
   ]
