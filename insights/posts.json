@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T07:57:09.939Z",
+  "fetchedAt": "2026-10-29T08:05:23.484Z",
   "posts": [
     {
       "id": "17934414204147663",
@@ -16,22 +16,6 @@
       "total_interactions": 24,
       "ig_reels_avg_watch_time": 8851,
       "reels_skip_rate": 41.6
-    },
-    {
-      "id": "18015386258752332",
-      "type": "VIDEO",
-      "postedAt": "2026-10-15T21:23:44+0000",
-      "permalink": "https://www.instagram.com/reel/Deh6lkqiQ5q/",
-      "caption": "be honest… how many hearts did you lose on level 1? 💔🎮",
-      "views": 553,
-      "reach": 398,
-      "likes": 3,
-      "comments": 0,
-      "shares": 0,
-      "saved": 1,
-      "total_interactions": 4,
-      "ig_reels_avg_watch_time": 10654,
-      "reels_skip_rate": 39.3
     },
     {
       "id": "18099742634635967",
@@ -96,22 +80,6 @@
       "total_interactions": 1,
       "ig_reels_avg_watch_time": 5119,
       "reels_skip_rate": 53.5
-    },
-    {
-      "id": "18217483705354057",
-      "type": "VIDEO",
-      "postedAt": "2026-10-08T21:34:26+0000",
-      "permalink": "https://www.instagram.com/reel/DeP6OdGIuxF/",
-      "caption": "Arcli.tech",
-      "views": 34,
-      "reach": 32,
-      "likes": 1,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 1,
-      "ig_reels_avg_watch_time": 2513,
-      "reels_skip_rate": 84.8
     },
     {
       "id": "18572189071074371",
@@ -210,6 +178,22 @@
       "reels_skip_rate": 100
     },
     {
+      "id": "18015386258752332",
+      "type": "VIDEO",
+      "postedAt": "2026-10-15T21:23:44+0000",
+      "permalink": "https://www.instagram.com/reel/Deh6lkqiQ5q/",
+      "caption": "be honest… how many hearts did you lose on level 1? 💔🎮",
+      "views": 0,
+      "reach": 398,
+      "likes": 3,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 4,
+      "ig_reels_avg_watch_time": 10654,
+      "reels_skip_rate": 0
+    },
+    {
       "id": "17943101226369598",
       "type": "VIDEO",
       "postedAt": "2026-10-12T17:50:04+0000",
@@ -223,6 +207,22 @@
       "saved": 0,
       "total_interactions": 0,
       "ig_reels_avg_watch_time": 3548,
+      "reels_skip_rate": 0
+    },
+    {
+      "id": "18217483705354057",
+      "type": "VIDEO",
+      "postedAt": "2026-10-08T21:34:26+0000",
+      "permalink": "https://www.instagram.com/reel/DeP6OdGIuxF/",
+      "caption": "Arcli.tech",
+      "views": 0,
+      "reach": 32,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 2513,
       "reels_skip_rate": 0
     }
   ]
