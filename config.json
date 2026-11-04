@@ -8,6 +8,6 @@
   ],
   "maxLateHours": 6,
   "deleteMediaAfterPost": true,
-  "crossPost": ["threads", "tiktok"],
+  "crossPost": ["threads", "tiktok", "youtube"],
   "linkedinVersion": "202609"
 }
