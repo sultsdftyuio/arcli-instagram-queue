@@ -27,6 +27,8 @@ async function call(method, url, { headers = {}, json, form, body } = {}) {
   } catch {
     data = { raw: text };
   }
+  // TikTok's upload address can answer with a bare `null`; it isn't an error, just nothing to read.
+  if (data === null || typeof data !== "object") data = { value: data };
   const apiError = data.error && (typeof data.error === "string" || data.error.message || (data.error.code && data.error.code !== "ok"));
   if (!res.ok || apiError) {
     const message = data.error?.message || data.error_description || data.message || (typeof data.error === "string" ? data.error : "") || `HTTP ${res.status}`;
