@@ -4,6 +4,7 @@
 // and after you approve, asks for the code shown on the callback page. It then writes the values
 // to .secrets/<platform>.txt (git-ignored) as NAME=value lines, to paste into the repository's
 // GitHub secrets (Settings > Secrets and variables > Actions). Nothing is printed to the terminal.
+import { createHash, randomBytes } from "node:crypto";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { createInterface } from "node:readline/promises";
 import { stdin, stdout } from "node:process";
@@ -17,7 +18,10 @@ const state = Math.random().toString(36).slice(2);
 async function post(url, form) {
   const res = await fetch(url, { method: "POST", body: new URLSearchParams(form) });
   const data = await res.json().catch(() => ({}));
-  if (!res.ok || data.error) throw new Error(data.error_description || data.error?.message || data.error || `HTTP ${res.status}`);
+  if (!res.ok || data.error) {
+    const message = data.error_description || data.error?.message || data.error || `HTTP ${res.status}`;
+    throw new Error(data.log_id ? `${message} (log_id ${data.log_id}, for the platform's support)` : message);
+  }
   return data;
 }
 async function get(url, headers = {}) {
@@ -50,9 +54,12 @@ const flows = {
   async tiktok() {
     const key = await ask("TikTok client key: ");
     const secret = await ask("TikTok client secret: ");
-    console.log(`\nOpen this link, approve, then copy the code:\nhttps://www.tiktok.com/v2/auth/authorize/?client_key=${key}&scope=user.info.basic,video.upload&response_type=code&redirect_uri=${encodeURIComponent(REDIRECT)}&state=${state}\n`);
+    // TikTok can refuse the token exchange without PKCE, and wants the challenge as hex rather than base64url.
+    const verifier = randomBytes(32).toString("hex");
+    const challenge = createHash("sha256").update(verifier).digest("hex");
+    console.log(`\nOpen this link, approve, then copy the code:\nhttps://www.tiktok.com/v2/auth/authorize/?client_key=${key}&scope=user.info.basic,video.upload&response_type=code&redirect_uri=${encodeURIComponent(REDIRECT)}&state=${state}&code_challenge=${challenge}&code_challenge_method=S256\n`);
     const code = await ask("Code: ");
-    const tok = await post("https://open.tiktokapis.com/v2/oauth/token/", { client_key: key, client_secret: secret, code: decodeURIComponent(code), grant_type: "authorization_code", redirect_uri: REDIRECT });
+    const tok = await post("https://open.tiktokapis.com/v2/oauth/token/", { client_key: key, client_secret: secret, code: decodeURIComponent(code), grant_type: "authorization_code", redirect_uri: REDIRECT, code_verifier: verifier });
     return { TIKTOK_CLIENT_KEY: key, TIKTOK_CLIENT_SECRET: secret, TIKTOK_REFRESH_TOKEN: tok.refresh_token };
   },
   async linkedin() {
