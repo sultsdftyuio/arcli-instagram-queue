@@ -14,8 +14,11 @@ async function call(method, url, { headers = {}, json, form, body } = {}) {
   if (json) {
     options.body = JSON.stringify(json);
     options.headers["Content-Type"] = "application/json";
-  } else if (form) options.body = new URLSearchParams(form);
-  else if (body) options.body = body;
+  } else if (form) {
+    // A URLSearchParams body makes fetch add ";charset=UTF-8", which TikTok rejects as malformed.
+    options.body = new URLSearchParams(form).toString();
+    options.headers["Content-Type"] = "application/x-www-form-urlencoded";
+  } else if (body) options.body = body;
   const res = await fetch(url, options);
   const text = await res.text();
   let data = {};

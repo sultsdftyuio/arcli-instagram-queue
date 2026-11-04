@@ -16,7 +16,12 @@ const ask = async (q) => (await rl.question(q)).trim();
 const state = Math.random().toString(36).slice(2);
 
 async function post(url, form) {
-  const res = await fetch(url, { method: "POST", body: new URLSearchParams(form) });
+  // A URLSearchParams body makes fetch add ";charset=UTF-8", which TikTok rejects as malformed.
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(form).toString(),
+  });
   const data = await res.json().catch(() => ({}));
   if (!res.ok || data.error) {
     const message = data.error_description || data.error?.message || data.error || `HTTP ${res.status}`;
