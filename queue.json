@@ -140,7 +140,7 @@
       "status": "posted",
       "cross": {
         "threads": "posted",
-        "tiktok": "pending"
+        "tiktok": "drafted"
       },
       "postedAt": "2026-11-04T21:30:17.602Z",
       "mediaId": "18076154078763500",
@@ -153,6 +153,9 @@
       },
       "crossError": {
         "tiktok": "Cannot read properties of null (reading 'error')"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
