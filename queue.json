@@ -163,10 +163,19 @@
       "file": "omc-who-snuck-out.mp4",
       "caption": "be honest… who in your house is sneaking out at night? 👢🌧️ 1, 2 or 3?\n\nplayonemoreclue.com\n\n#whodunnit #puzzle #riddle #mystery #gamenight",
       "publishAt": "2026-11-05T18:31:02.121Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-05T18:32:31.443Z",
+      "mediaId": "18119900456006709",
+      "permalink": "https://www.instagram.com/reel/DfXrp92DPTD/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfXru4BhG8Z"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
