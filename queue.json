@@ -183,10 +183,19 @@
       "file": "omc-game-night.mp4",
       "caption": "be honest… which one are you at game night? 🕵️\n\nplayonemoreclue.com\n\n#gamenight #friends #mystery #boardgames #relatable",
       "publishAt": "2026-11-05T20:54:48.842Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-05T20:56:27.325Z",
+      "mediaId": "17917196754542984",
+      "permalink": "https://www.instagram.com/reel/DfX8JkdIWLW/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfX8NIBSaka"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
