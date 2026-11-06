@@ -203,10 +203,19 @@
       "file": "omc-dead-air.mp4",
       "caption": "be honest… what do you think happened in those 9 minutes? 📻\n\nplayonemoreclue.com\n\n#mystery #whodunnit #truecrime #radio #gamenight",
       "publishAt": "2026-11-06T19:44:34.074Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-06T19:46:11.253Z",
+      "mediaId": "17912327319574478",
+      "permalink": "https://www.instagram.com/reel/DfaY38SglJn/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfaY9X2pBBZ"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
