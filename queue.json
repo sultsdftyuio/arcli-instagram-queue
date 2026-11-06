@@ -223,10 +223,19 @@
       "file": "omc-pockets.mp4",
       "caption": "be honest… is Sam lying? yes or no 🧥\n\nplayonemoreclue.com\n\n#mystery #whodunnit #puzzle #detective #gamenight",
       "publishAt": "2026-11-06T20:36:29.032Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-06T20:38:12.990Z",
+      "mediaId": "18125501152724693",
+      "permalink": "https://www.instagram.com/reel/Dfae2AhkbI6/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Dfae6aDqS40"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
