@@ -197,6 +197,17 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
+    },
+    {
+      "id": "omc-dead-air",
+      "file": "omc-dead-air.mp4",
+      "caption": "be honest… what do you think happened in those 9 minutes? 📻\n\nplayonemoreclue.com\n\n#mystery #whodunnit #truecrime #radio #gamenight",
+      "publishAt": "2026-11-06T19:44:34.074Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
