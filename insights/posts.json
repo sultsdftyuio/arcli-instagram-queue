@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T20:58:29.805Z",
+  "fetchedAt": "2026-11-06T08:57:14.757Z",
   "posts": [
     {
       "id": "18119900456006709",
@@ -7,15 +7,15 @@
       "postedAt": "2026-11-05T18:32:24+0000",
       "permalink": "https://www.instagram.com/reel/DfXrp92DPTD/",
       "caption": "be honest… who in your house is sneaking out at night? 👢🌧️ 1, 2 or 3?",
-      "views": 1821,
-      "reach": 1107,
-      "likes": 6,
-      "comments": 1,
+      "views": 2681,
+      "reach": 1742,
+      "likes": 10,
+      "comments": 3,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 7,
-      "ig_reels_avg_watch_time": 8604,
-      "reels_skip_rate": 33.7
+      "total_interactions": 13,
+      "ig_reels_avg_watch_time": 8333,
+      "reels_skip_rate": 34.5
     },
     {
       "id": "18076154078763500",
@@ -23,14 +23,14 @@
       "postedAt": "2026-11-04T21:30:11+0000",
       "permalink": "https://www.instagram.com/reel/DfVbNREEezf/",
       "caption": "be honest… who in your group accuses first and asks questions later? 🍰🔍",
-      "views": 1243,
-      "reach": 1057,
+      "views": 1248,
+      "reach": 1062,
       "likes": 5,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 5,
-      "ig_reels_avg_watch_time": 9671,
+      "ig_reels_avg_watch_time": 9660,
       "reels_skip_rate": 31.8
     },
     {
@@ -39,15 +39,15 @@
       "postedAt": "2026-11-05T20:56:21+0000",
       "permalink": "https://www.instagram.com/reel/DfX8JkdIWLW/",
       "caption": "be honest… which one are you at game night? 🕵️",
-      "views": 0,
-      "reach": 0,
+      "views": 122,
+      "reach": 103,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 0,
-      "reels_skip_rate": 0
+      "ig_reels_avg_watch_time": 3762,
+      "reels_skip_rate": 68.6
     }
   ]
 }
