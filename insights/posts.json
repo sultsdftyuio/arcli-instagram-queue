@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T08:24:00.781Z",
+  "fetchedAt": "2026-11-07T09:07:29.939Z",
   "posts": [
     {
       "id": "18119900456006709",
@@ -46,7 +46,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 2991,
+      "ig_reels_avg_watch_time": 3000,
       "reels_skip_rate": 77.1
     },
     {
@@ -71,7 +71,7 @@
       "postedAt": "2026-11-06T19:46:06+0000",
       "permalink": "https://www.instagram.com/reel/DfaY38SglJn/",
       "caption": "be honest… what do you think happened in those 9 minutes? 📻",
-      "views": 15,
+      "views": 19,
       "reach": 13,
       "likes": 0,
       "comments": 0,
@@ -79,7 +79,23 @@
       "saved": 0,
       "total_interactions": 0,
       "ig_reels_avg_watch_time": 6823,
-      "reels_skip_rate": 61.5
+      "reels_skip_rate": 50
+    },
+    {
+      "id": "18189438247416662",
+      "type": "VIDEO",
+      "postedAt": "2026-11-07T08:59:30+0000",
+      "permalink": "https://www.instagram.com/reel/DfbzsGOFYuG/",
+      "caption": "be honest… who did you suspect first? 🔍",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 0,
+      "reels_skip_rate": 0
     }
   ]
 }
