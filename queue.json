@@ -243,10 +243,19 @@
       "file": "omc-butler.mp4",
       "caption": "be honest… who did you suspect first? 🔍\n\nplayonemoreclue.com\n\n#mystery #whodunnit #detective #plottwist #gamenight",
       "publishAt": "2026-11-07T08:58:03.817Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-07T08:59:36.525Z",
+      "mediaId": "18189438247416662",
+      "permalink": "https://www.instagram.com/reel/DfbzsGOFYuG/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Dfbzwq9B5BI"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
