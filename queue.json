@@ -257,6 +257,17 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
+    },
+    {
+      "id": "omc-snowed-in",
+      "file": "omc-snowed-in.mp4",
+      "caption": "be honest… who took the diamond? 💎❄️\n\nMidnight. Lights out. Nobody could leave the lodge. Crack it with your friends in One More Clue. #mystery #whodunit #boardgame #puzzle",
+      "publishAt": "2026-11-07T10:55:51.157Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
