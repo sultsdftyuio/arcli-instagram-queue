@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T09:07:29.939Z",
+  "fetchedAt": "2026-11-08T08:38:54.759Z",
   "posts": [
     {
       "id": "18119900456006709",
@@ -7,14 +7,14 @@
       "postedAt": "2026-11-05T18:32:24+0000",
       "permalink": "https://www.instagram.com/reel/DfXrp92DPTD/",
       "caption": "be honest… who in your house is sneaking out at night? 👢🌧️ 1, 2 or 3?",
-      "views": 2907,
-      "reach": 1887,
+      "views": 2918,
+      "reach": 1890,
       "likes": 10,
       "comments": 3,
       "shares": 0,
       "saved": 0,
       "total_interactions": 13,
-      "ig_reels_avg_watch_time": 8352,
+      "ig_reels_avg_watch_time": 8374,
       "reels_skip_rate": 34.2
     },
     {
@@ -30,7 +30,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 5,
-      "ig_reels_avg_watch_time": 9631,
+      "ig_reels_avg_watch_time": 9618,
       "reels_skip_rate": 31.8
     },
     {
@@ -39,15 +39,31 @@
       "postedAt": "2026-11-06T20:38:06+0000",
       "permalink": "https://www.instagram.com/reel/Dfae2AhkbI6/",
       "caption": "be honest… is Sam lying? yes or no 🧥",
-      "views": 125,
-      "reach": 113,
+      "views": 127,
+      "reach": 115,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 3000,
-      "reels_skip_rate": 77.1
+      "ig_reels_avg_watch_time": 2946,
+      "reels_skip_rate": 77.5
+    },
+    {
+      "id": "18189438247416662",
+      "type": "VIDEO",
+      "postedAt": "2026-11-07T08:59:30+0000",
+      "permalink": "https://www.instagram.com/reel/DfbzsGOFYuG/",
+      "caption": "be honest… who did you suspect first? 🔍",
+      "views": 126,
+      "reach": 102,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 4258,
+      "reels_skip_rate": 63.9
     },
     {
       "id": "17917196754542984",
@@ -62,8 +78,24 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 3786,
+      "ig_reels_avg_watch_time": 3815,
       "reels_skip_rate": 68.6
+    },
+    {
+      "id": "18116703569119755",
+      "type": "VIDEO",
+      "postedAt": "2026-11-07T10:57:04+0000",
+      "permalink": "https://www.instagram.com/reel/DfcBI7qD_pj/",
+      "caption": "be honest… who took the diamond? 💎❄️",
+      "views": 119,
+      "reach": 104,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 5456,
+      "reels_skip_rate": 48.6
     },
     {
       "id": "17912327319574478",
@@ -71,31 +103,15 @@
       "postedAt": "2026-11-06T19:46:06+0000",
       "permalink": "https://www.instagram.com/reel/DfaY38SglJn/",
       "caption": "be honest… what do you think happened in those 9 minutes? 📻",
-      "views": 19,
-      "reach": 13,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 0,
-      "ig_reels_avg_watch_time": 6823,
-      "reels_skip_rate": 50
-    },
-    {
-      "id": "18189438247416662",
-      "type": "VIDEO",
-      "postedAt": "2026-11-07T08:59:30+0000",
-      "permalink": "https://www.instagram.com/reel/DfbzsGOFYuG/",
-      "caption": "be honest… who did you suspect first? 🔍",
       "views": 0,
-      "reach": 0,
-      "likes": 0,
+      "reach": 117,
+      "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 0,
-      "ig_reels_avg_watch_time": 0,
-      "reels_skip_rate": 0
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 5228,
+      "reels_skip_rate": 52.5
     }
   ]
 }
