@@ -277,6 +277,17 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
+    },
+    {
+      "id": "omc-whats-missing",
+      "file": "omc-whats-missing.mp4",
+      "caption": "be honest… did you catch it on the first watch? 👀☕\n\nplayonemoreclue.com\n\n#spotthedifference #memorytest #puzzle #mystery #gamenight",
+      "publishAt": "2026-11-13T12:00:00+04:00",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
