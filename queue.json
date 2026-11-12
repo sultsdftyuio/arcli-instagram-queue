@@ -303,10 +303,19 @@
       "file": "omc-black-light.mp4",
       "caption": "which room would your group search first? 🔦💜\n\nplayonemoreclue.com\n\n#mystery #whodunit #uvlight #puzzle #gamenight",
       "publishAt": "2026-11-12T16:30:10.021Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-12T16:31:38.572Z",
+      "mediaId": "18122037337752170",
+      "permalink": "https://www.instagram.com/reel/DfpfY7QESyW/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Dfpfdt6BjSr"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
