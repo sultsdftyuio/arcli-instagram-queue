@@ -337,6 +337,17 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
+    },
+    {
+      "id": "omc-socks",
+      "file": "omc-socks.mp4",
+      "caption": "tag the sock thief in your house 🧦\n\nplayonemoreclue.com\n\n#relatable #mystery #laundry #funny #gamenight",
+      "publishAt": "2026-11-12T17:53:13.431Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
