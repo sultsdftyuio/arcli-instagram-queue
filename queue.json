@@ -323,10 +323,19 @@
       "file": "omc-getaway.mp4",
       "caption": "be honest… where did they go? 👣🔍 1, 2 or 3?\n\nplayonemoreclue.com\n\n#whodunnit #puzzle #riddle #mystery #gamenight",
       "publishAt": "2026-11-12T17:25:20.216Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-12T17:26:49.097Z",
+      "mediaId": "18643700008018283",
+      "permalink": "https://www.instagram.com/reel/DfpltCoE2TW/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfplxvihwVh"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
