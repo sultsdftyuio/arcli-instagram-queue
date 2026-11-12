@@ -283,10 +283,19 @@
       "file": "omc-whats-missing.mp4",
       "caption": "be honest… did you catch it on the first watch? 👀☕\n\nplayonemoreclue.com\n\n#spotthedifference #memorytest #puzzle #mystery #gamenight",
       "publishAt": "2026-11-12T14:50:07.734Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-12T14:51:04.041Z",
+      "mediaId": "17908124595669572",
+      "permalink": "https://www.instagram.com/reel/DfpT4cLHFVb/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfpT9C-t1bS"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
