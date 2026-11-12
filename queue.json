@@ -363,10 +363,19 @@
       "file": "omc-zoom-in.mp4",
       "caption": "how many loops before you noticed? 🔁🔍\n\nplayonemoreclue.com\n\n#mystery #detective #comicart #loop #gamenight",
       "publishAt": "2026-11-12T21:46:39.595Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-12T21:48:13.543Z",
+      "mediaId": "18169505080475104",
+      "permalink": "https://www.instagram.com/reel/DfqDn9ciT_B/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfqDscUT8BX"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
