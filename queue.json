@@ -343,10 +343,19 @@
       "file": "omc-socks.mp4",
       "caption": "tag the sock thief in your house 🧦\n\nplayonemoreclue.com\n\n#relatable #mystery #laundry #funny #gamenight",
       "publishAt": "2026-11-12T17:53:13.431Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-12T17:54:29.573Z",
+      "mediaId": "18115165856171647",
+      "permalink": "https://www.instagram.com/reel/Dfpo37kgrsH/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Dfpo8nHKZxt"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
