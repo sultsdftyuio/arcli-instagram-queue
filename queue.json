@@ -397,6 +397,17 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
+    },
+    {
+      "id": "omc-robot-vacuum",
+      "file": "omc-robot-vacuum.mp4",
+      "caption": "did you spot the ring in the first 2 seconds? 💍🔍\n\nplayonemoreclue.com\n\n#robotvacuum #mystery #plottwist #funny #gamenight",
+      "publishAt": "2026-11-14T12:00:00+04:00",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
