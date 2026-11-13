@@ -403,10 +403,19 @@
       "file": "omc-robot-vacuum.mp4",
       "caption": "did you spot the ring in the first 2 seconds? 💍🔍\n\nplayonemoreclue.com\n\n#robotvacuum #mystery #plottwist #funny #gamenight",
       "publishAt": "2026-11-13T19:21:25Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-13T19:25:22.155Z",
+      "mediaId": "18076053500752741",
+      "permalink": "https://www.instagram.com/reel/DfsYEZVEpsm/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfsYJOAvJHx"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
