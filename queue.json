@@ -437,6 +437,17 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
+    },
+    {
+      "id": "omc-every-window",
+      "file": "omc-every-window.mp4",
+      "caption": "What every window looks like on a Friday night 🌧️🏙️\n\nOne More Clue: a mystery game you solve with your friends. The first case is free, no app, no sign-up. Send this to your group chat.",
+      "publishAt": "2026-11-14T19:57:15.114Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
