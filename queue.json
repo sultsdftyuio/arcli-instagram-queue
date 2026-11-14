@@ -443,10 +443,19 @@
       "file": "omc-every-window.mp4",
       "caption": "What every window looks like on a Friday night 🌧️🏙️\n\nOne More Clue: a mystery game you solve with your friends. The first case is free, no app, no sign-up. Send this to your group chat.",
       "publishAt": "2026-11-14T19:57:15.114Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-14T19:58:36.696Z",
+      "mediaId": "18100920806421474",
+      "permalink": "https://www.instagram.com/reel/DfvAqlAiGPd/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfvAvmaCzoE"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
