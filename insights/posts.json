@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T19:22:14.476Z",
+  "fetchedAt": "2026-11-14T08:39:29.114Z",
   "posts": [
     {
       "id": "18119900456006709",
@@ -7,14 +7,14 @@
       "postedAt": "2026-11-05T18:32:24+0000",
       "permalink": "https://www.instagram.com/reel/DfXrp92DPTD/",
       "caption": "be honest… who in your house is sneaking out at night? 👢🌧️ 1, 2 or 3?",
-      "views": 2949,
-      "reach": 1917,
+      "views": 2952,
+      "reach": 1920,
       "likes": 10,
       "comments": 3,
       "shares": 0,
       "saved": 0,
       "total_interactions": 13,
-      "ig_reels_avg_watch_time": 8372,
+      "ig_reels_avg_watch_time": 8374,
       "reels_skip_rate": 34.1
     },
     {
@@ -24,7 +24,7 @@
       "permalink": "https://www.instagram.com/reel/DfpltCoE2TW/",
       "caption": "be honest… where did they go? 👣🔍 1, 2 or 3?",
       "views": 1617,
-      "reach": 1143,
+      "reach": 1145,
       "likes": 4,
       "comments": 0,
       "shares": 0,
@@ -56,7 +56,7 @@
       "permalink": "https://www.instagram.com/reel/DfpT4cLHFVb/",
       "caption": "be honest… did you catch it on the first watch? 👀☕",
       "views": 328,
-      "reach": 249,
+      "reach": 250,
       "likes": 1,
       "comments": 0,
       "shares": 0,
@@ -64,6 +64,22 @@
       "total_interactions": 1,
       "ig_reels_avg_watch_time": 7644,
       "reels_skip_rate": 50
+    },
+    {
+      "id": "18076053500752741",
+      "type": "VIDEO",
+      "postedAt": "2026-11-13T19:25:16+0000",
+      "permalink": "https://www.instagram.com/reel/DfsYEZVEpsm/",
+      "caption": "did you spot the ring in the first 2 seconds? 💍🔍",
+      "views": 192,
+      "reach": 157,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 9836,
+      "reels_skip_rate": 39.2
     },
     {
       "id": "18122037337752170",
@@ -96,6 +112,22 @@
       "total_interactions": 1,
       "ig_reels_avg_watch_time": 5152,
       "reels_skip_rate": 52.9
+    },
+    {
+      "id": "18109724467970905",
+      "type": "VIDEO",
+      "postedAt": "2026-11-13T14:30:10+0000",
+      "permalink": "https://www.instagram.com/reel/Dfr2S79CKqa/",
+      "caption": "which case are you picking first? 🎮🔍",
+      "views": 134,
+      "reach": 131,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 2,
+      "ig_reels_avg_watch_time": 3369,
+      "reels_skip_rate": 70.5
     },
     {
       "id": "18169505080475104",
@@ -144,22 +176,6 @@
       "total_interactions": 0,
       "ig_reels_avg_watch_time": 2895,
       "reels_skip_rate": 77.5
-    },
-    {
-      "id": "18109724467970905",
-      "type": "VIDEO",
-      "postedAt": "2026-11-13T14:30:10+0000",
-      "permalink": "https://www.instagram.com/reel/Dfr2S79CKqa/",
-      "caption": "which case are you picking first? 🎮🔍",
-      "views": 126,
-      "reach": 122,
-      "likes": 2,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 2,
-      "ig_reels_avg_watch_time": 3440,
-      "reels_skip_rate": 71.1
     },
     {
       "id": "17917196754542984",
