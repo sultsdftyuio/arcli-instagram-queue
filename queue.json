@@ -422,13 +422,12 @@
       "id": "omc-which-notebook",
       "file": "omc-which-notebook.mp4",
       "caption": "Which notebook was it torn from? 1, 2 or 3? ☕📓\n\nOne More Clue: the first case is free, no app, no sign-up. Grab 2–4 friends and play tonight.",
-      "publishAt": "2026-11-14T14:48:44.723Z",
-      "status": "failed",
+      "publishAt": "2026-11-14T14:56:39.312Z",
+      "status": "approved",
       "cross": {
         "threads": "pending",
         "tiktok": "pending"
-      },
-      "error": "Instagram rejected the video: ERROR ERROR"
+      }
     }
   ]
 }
