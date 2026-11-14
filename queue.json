@@ -423,10 +423,19 @@
       "file": "omc-which-notebook.mp4",
       "caption": "Which notebook was it torn from? 1, 2 or 3? ☕📓\n\nOne More Clue: the first case is free, no app, no sign-up. Grab 2–4 friends and play tonight.",
       "publishAt": "2026-11-14T14:56:39.312Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-14T15:22:57.420Z",
+      "mediaId": "17946209073371931",
+      "permalink": "https://www.instagram.com/reel/DfuhIDZiOQW/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfuhMcMqE5F"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
