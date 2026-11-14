@@ -417,6 +417,17 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
+    },
+    {
+      "id": "omc-which-notebook",
+      "file": "omc-which-notebook.mp4",
+      "caption": "Which notebook was it torn from? 1, 2 or 3? ☕📓\n\nOne More Clue: the first case is free, no app, no sign-up. Grab 2–4 friends and play tonight.",
+      "publishAt": "2026-11-14T14:48:44.723Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
