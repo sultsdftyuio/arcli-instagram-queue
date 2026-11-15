@@ -463,10 +463,19 @@
       "file": "omc-game-night-trailer.mp4",
       "caption": "When the group chat says \"case tonight?\" 🕶️🌧️\n\nOne More Clue: a mystery game for 2–4 friends. The first case is free, no app, no sign-up. Tag your crew.",
       "publishAt": "2026-11-15T19:00:00+04:00",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-15T19:29:27.795Z",
+      "mediaId": "18034769249882095",
+      "permalink": "https://www.instagram.com/reel/DfxiH_AEVAi/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfxiM0XxeHs"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     },
     {
