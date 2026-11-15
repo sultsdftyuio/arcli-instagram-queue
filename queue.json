@@ -468,6 +468,17 @@
         "threads": "pending",
         "tiktok": "pending"
       }
+    },
+    {
+      "id": "omc-one-link",
+      "file": "omc-one-link.mp4",
+      "caption": "One link. Four mysteries. 📩✈️\n\nSend it to your group chat: One More Clue's first case is free, no app, no sign-up.",
+      "publishAt": "2026-11-16T12:00:00+04:00",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
