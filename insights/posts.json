@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T08:39:29.114Z",
+  "fetchedAt": "2026-11-15T08:52:23.379Z",
   "posts": [
     {
       "id": "18119900456006709",
@@ -7,14 +7,14 @@
       "postedAt": "2026-11-05T18:32:24+0000",
       "permalink": "https://www.instagram.com/reel/DfXrp92DPTD/",
       "caption": "be honest… who in your house is sneaking out at night? 👢🌧️ 1, 2 or 3?",
-      "views": 2952,
-      "reach": 1920,
+      "views": 2960,
+      "reach": 1923,
       "likes": 10,
       "comments": 3,
       "shares": 0,
       "saved": 0,
       "total_interactions": 13,
-      "ig_reels_avg_watch_time": 8374,
+      "ig_reels_avg_watch_time": 8376,
       "reels_skip_rate": 34.1
     },
     {
@@ -32,6 +32,22 @@
       "total_interactions": 4,
       "ig_reels_avg_watch_time": 7209,
       "reels_skip_rate": 41.8
+    },
+    {
+      "id": "17946209073371931",
+      "type": "VIDEO",
+      "postedAt": "2026-11-14T15:22:51+0000",
+      "permalink": "https://www.instagram.com/reel/DfuhIDZiOQW/",
+      "caption": "Which notebook was it torn from? 1, 2 or 3? ☕📓",
+      "views": 1615,
+      "reach": 1156,
+      "likes": 12,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 13,
+      "ig_reels_avg_watch_time": 8429,
+      "reels_skip_rate": 31
     },
     {
       "id": "18076154078763500",
@@ -71,15 +87,15 @@
       "postedAt": "2026-11-13T19:25:16+0000",
       "permalink": "https://www.instagram.com/reel/DfsYEZVEpsm/",
       "caption": "did you spot the ring in the first 2 seconds? 💍🔍",
-      "views": 192,
-      "reach": 157,
+      "views": 199,
+      "reach": 165,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 9836,
-      "reels_skip_rate": 39.2
+      "ig_reels_avg_watch_time": 9619,
+      "reels_skip_rate": 39.4
     },
     {
       "id": "18122037337752170",
@@ -119,15 +135,31 @@
       "postedAt": "2026-11-13T14:30:10+0000",
       "permalink": "https://www.instagram.com/reel/Dfr2S79CKqa/",
       "caption": "which case are you picking first? 🎮🔍",
-      "views": 134,
-      "reach": 131,
-      "likes": 2,
+      "views": 137,
+      "reach": 134,
+      "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 2,
-      "ig_reels_avg_watch_time": 3369,
-      "reels_skip_rate": 70.5
+      "total_interactions": 3,
+      "ig_reels_avg_watch_time": 3325,
+      "reels_skip_rate": 71.2
+    },
+    {
+      "id": "18100920806421474",
+      "type": "VIDEO",
+      "postedAt": "2026-11-14T19:58:30+0000",
+      "permalink": "https://www.instagram.com/reel/DfvAqlAiGPd/",
+      "caption": "What every window looks like on a Friday night 🌧️🏙️",
+      "views": 133,
+      "reach": 123,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 3630,
+      "reels_skip_rate": 58.3
     },
     {
       "id": "18169505080475104",
@@ -135,15 +167,15 @@
       "postedAt": "2026-11-12T21:48:08+0000",
       "permalink": "https://www.instagram.com/reel/DfqDn9ciT_B/",
       "caption": "how many loops before you noticed? 🔁🔍",
-      "views": 128,
-      "reach": 100,
+      "views": 129,
+      "reach": 101,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 4986,
-      "reels_skip_rate": 53.5
+      "ig_reels_avg_watch_time": 4992,
+      "reels_skip_rate": 52.9
     },
     {
       "id": "18189438247416662",
