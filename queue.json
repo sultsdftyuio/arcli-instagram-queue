@@ -503,10 +503,18 @@
       "file": "omc-lying-friends.mp4",
       "caption": "Your friends' texts vs what they're really doing 😂\n\nTag the one who texts \"omw\" from the sofa.\n\nOne More Clue: a mystery game where you catch the liar with your friends. The first case is free, no app, no sign-up.",
       "publishAt": "2026-11-16T05:23:01.965Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-16T05:26:56.309Z",
+      "permalink": "https://www.instagram.com/reel/DfymgH1gCei/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Dfymq8ASNq4"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     },
     {
