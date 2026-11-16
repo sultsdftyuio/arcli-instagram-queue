@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T08:52:23.379Z",
+  "fetchedAt": "2026-11-16T05:09:19.562Z",
   "posts": [
     {
       "id": "18119900456006709",
@@ -7,15 +7,31 @@
       "postedAt": "2026-11-05T18:32:24+0000",
       "permalink": "https://www.instagram.com/reel/DfXrp92DPTD/",
       "caption": "be honest… who in your house is sneaking out at night? 👢🌧️ 1, 2 or 3?",
-      "views": 2960,
-      "reach": 1923,
+      "views": 2970,
+      "reach": 1928,
       "likes": 10,
       "comments": 3,
       "shares": 0,
       "saved": 0,
       "total_interactions": 13,
-      "ig_reels_avg_watch_time": 8376,
-      "reels_skip_rate": 34.1
+      "ig_reels_avg_watch_time": 8384,
+      "reels_skip_rate": 34
+    },
+    {
+      "id": "17946209073371931",
+      "type": "VIDEO",
+      "postedAt": "2026-11-14T15:22:51+0000",
+      "permalink": "https://www.instagram.com/reel/DfuhIDZiOQW/",
+      "caption": "Which notebook was it torn from? 1, 2 or 3? ☕📓",
+      "views": 1617,
+      "reach": 1157,
+      "likes": 12,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 13,
+      "ig_reels_avg_watch_time": 8434,
+      "reels_skip_rate": 31
     },
     {
       "id": "18643700008018283",
@@ -32,22 +48,6 @@
       "total_interactions": 4,
       "ig_reels_avg_watch_time": 7209,
       "reels_skip_rate": 41.8
-    },
-    {
-      "id": "17946209073371931",
-      "type": "VIDEO",
-      "postedAt": "2026-11-14T15:22:51+0000",
-      "permalink": "https://www.instagram.com/reel/DfuhIDZiOQW/",
-      "caption": "Which notebook was it torn from? 1, 2 or 3? ☕📓",
-      "views": 1615,
-      "reach": 1156,
-      "likes": 12,
-      "comments": 0,
-      "shares": 0,
-      "saved": 1,
-      "total_interactions": 13,
-      "ig_reels_avg_watch_time": 8429,
-      "reels_skip_rate": 31
     },
     {
       "id": "18076154078763500",
@@ -152,13 +152,13 @@
       "permalink": "https://www.instagram.com/reel/DfvAqlAiGPd/",
       "caption": "What every window looks like on a Friday night 🌧️🏙️",
       "views": 133,
-      "reach": 123,
+      "reach": 124,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 3630,
+      "ig_reels_avg_watch_time": 3603,
       "reels_skip_rate": 58.3
     },
     {
@@ -240,6 +240,22 @@
       "total_interactions": 1,
       "ig_reels_avg_watch_time": 5373,
       "reels_skip_rate": 48.6
+    },
+    {
+      "id": "18034769249882095",
+      "type": "VIDEO",
+      "postedAt": "2026-11-15T19:29:21+0000",
+      "permalink": "https://www.instagram.com/reel/DfxiH_AEVAi/",
+      "caption": "When the group chat says \"case tonight?\" 🕶️🌧️",
+      "views": 117,
+      "reach": 102,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 3614,
+      "reels_skip_rate": 71.8
     },
     {
       "id": "18115165856171647",
