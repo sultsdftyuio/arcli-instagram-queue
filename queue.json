@@ -477,17 +477,6 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
-    },
-    {
-      "id": "omc-cafe-timelapse",
-      "file": "omc-cafe-timelapse.mp4",
-      "caption": "Three weeks of tips, gone at 8:44 PM. ☕🕰️\n\nWho took it? Solve it with your friends: the café case is free to play, no app, no sign-up.",
-      "publishAt": "2026-11-16T19:00:00+04:00",
-      "status": "approved",
-      "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
-      }
     }
   ]
 }
