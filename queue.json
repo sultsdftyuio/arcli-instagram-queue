@@ -477,6 +477,17 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
+    },
+    {
+      "id": "omc-one-link-question",
+      "file": "omc-one-link-question.mp4",
+      "caption": "Which case would you play first? 1, 2, 3 or 4? 📩✈️\n\nOne More Clue: four mysteries for 2–4 friends. The first case is free, no app, no sign-up. Send this to your group chat.",
+      "publishAt": "2026-11-16T12:00:00+04:00",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
