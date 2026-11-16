@@ -483,10 +483,19 @@
       "file": "omc-course-7.mp4",
       "caption": "What happens at course 7? 🍫\n\nSeven courses. One critic. Four people touched that dinner.\n\nIt's Case 003 in One More Clue, a mystery game you solve with friends. Start with the first case free: no app, no sign-up.",
       "publishAt": "2026-11-16T05:22:45.973Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-16T05:24:38.337Z",
+      "mediaId": "17893624647686461",
+      "permalink": "https://www.instagram.com/reel/DfymPI_iTM_/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfymUDEyiKi"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     },
     {
