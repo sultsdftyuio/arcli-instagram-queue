@@ -542,10 +542,19 @@
       "file": "omc-evidence-room.mp4",
       "caption": "Restocking the evidence room 📦\n\nFour cases filed. One box left, and it's yours.\n\nOne More Clue: a mystery game you solve with your friends. The first case is free, no app, no sign-up.",
       "publishAt": "2026-11-16T14:23:20.433Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-16T14:24:55.552Z",
+      "mediaId": "18110017916565855",
+      "permalink": "https://www.instagram.com/reel/DfzkEIzFfT9/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfzkJNTFwop"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     },
     {
