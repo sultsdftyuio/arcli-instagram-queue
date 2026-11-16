@@ -488,6 +488,17 @@
         "threads": "pending",
         "tiktok": "pending"
       }
+    },
+    {
+      "id": "omc-cafe-question",
+      "file": "omc-cafe-question.mp4",
+      "caption": "Who took the tips? ☕🕰️\n\nThree weeks of tips, gone at 8:44 PM. Solve it with your friends: the café case is free to play, no app, no sign-up.",
+      "publishAt": "2026-11-16T19:00:00+04:00",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
