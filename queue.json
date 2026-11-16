@@ -562,10 +562,19 @@
       "file": "omc-cafe-question.mp4",
       "caption": "Who took the tips? ☕🕰️\n\nThree weeks of tips, gone at 8:44 PM. Solve it with your friends: the café case is free to play, no app, no sign-up.",
       "publishAt": "2026-11-16T19:00:00+04:00",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-16T15:31:04.236Z",
+      "mediaId": "18043730396845359",
+      "permalink": "https://www.instagram.com/reel/Dfzroz8nDFv/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DfzrtoFJONA"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
