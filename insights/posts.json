@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T09:03:56.733Z",
+  "fetchedAt": "2026-11-17T10:15:14.742Z",
   "posts": [
     {
       "id": "18119900456006709",
@@ -23,14 +23,14 @@
       "postedAt": "2026-11-14T15:22:51+0000",
       "permalink": "https://www.instagram.com/reel/DfuhIDZiOQW/",
       "caption": "Which notebook was it torn from? 1, 2 or 3? ☕📓",
-      "views": 1617,
-      "reach": 1157,
+      "views": 1618,
+      "reach": 1158,
       "likes": 12,
       "comments": 0,
       "shares": 0,
       "saved": 1,
       "total_interactions": 13,
-      "ig_reels_avg_watch_time": 8434,
+      "ig_reels_avg_watch_time": 8423,
       "reels_skip_rate": 31
     },
     {
@@ -94,7 +94,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 9619,
+      "ig_reels_avg_watch_time": 9569,
       "reels_skip_rate": 39.4
     },
     {
@@ -103,15 +103,47 @@
       "postedAt": "2026-11-16T05:24:31+0000",
       "permalink": "https://www.instagram.com/reel/DfymPI_iTM_/",
       "caption": "What happens at course 7? 🍫",
-      "views": 162,
-      "reach": 125,
+      "views": 174,
+      "reach": 140,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 6736,
-      "reels_skip_rate": 49.2
+      "ig_reels_avg_watch_time": 6341,
+      "reels_skip_rate": 51.4
+    },
+    {
+      "id": "18084838826356377",
+      "type": "VIDEO",
+      "postedAt": "2026-11-16T05:26:49+0000",
+      "permalink": "https://www.instagram.com/reel/DfymgH1gCei/",
+      "caption": "Your friends' texts vs what they're really doing 😂",
+      "views": 172,
+      "reach": 138,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 9166,
+      "reels_skip_rate": 43
+    },
+    {
+      "id": "18043730396845359",
+      "type": "VIDEO",
+      "postedAt": "2026-11-16T15:30:58+0000",
+      "permalink": "https://www.instagram.com/reel/Dfzroz8nDFv/",
+      "caption": "Who took the tips? ☕🕰️",
+      "views": 167,
+      "reach": 126,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 7963,
+      "reels_skip_rate": 47.6
     },
     {
       "id": "18122037337752170",
@@ -128,22 +160,6 @@
       "total_interactions": 1,
       "ig_reels_avg_watch_time": 4470,
       "reels_skip_rate": 56
-    },
-    {
-      "id": "18084838826356377",
-      "type": "VIDEO",
-      "postedAt": "2026-11-16T05:26:49+0000",
-      "permalink": "https://www.instagram.com/reel/DfymgH1gCei/",
-      "caption": "Your friends' texts vs what they're really doing 😂",
-      "views": 154,
-      "reach": 120,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 0,
-      "ig_reels_avg_watch_time": 9166,
-      "reels_skip_rate": 43.3
     },
     {
       "id": "17912327319574478",
@@ -178,6 +194,22 @@
       "reels_skip_rate": 71.2
     },
     {
+      "id": "18016645691985699",
+      "type": "VIDEO",
+      "postedAt": "2026-11-16T10:58:08+0000",
+      "permalink": "https://www.instagram.com/reel/DfzMauEDsPA/",
+      "caption": "Which case would you play first? 1, 2, 3 or 4? 📩✈️",
+      "views": 134,
+      "reach": 115,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 5733,
+      "reels_skip_rate": 39.5
+    },
+    {
       "id": "18100920806421474",
       "type": "VIDEO",
       "postedAt": "2026-11-14T19:58:30+0000",
@@ -190,7 +222,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 3603,
+      "ig_reels_avg_watch_time": 3585,
       "reels_skip_rate": 58.3
     },
     {
@@ -286,7 +318,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 3614,
+      "ig_reels_avg_watch_time": 3563,
       "reels_skip_rate": 71.8
     },
     {
@@ -304,6 +336,22 @@
       "total_interactions": 1,
       "ig_reels_avg_watch_time": 3543,
       "reels_skip_rate": 59
+    },
+    {
+      "id": "18110017916565855",
+      "type": "VIDEO",
+      "postedAt": "2026-11-16T14:24:48+0000",
+      "permalink": "https://www.instagram.com/reel/DfzkEIzFfT9/",
+      "caption": "Restocking the evidence room 📦",
+      "views": 39,
+      "reach": 34,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 3962,
+      "reels_skip_rate": 61.8
     }
   ]
 }
