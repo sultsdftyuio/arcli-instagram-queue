@@ -576,6 +576,17 @@
       "crossNote": {
         "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
+    },
+    {
+      "id": "omc-milk-noir",
+      "file": "omc-milk-noir.mp4",
+      "caption": "Who put the empty milk back? 🥛🕵️\n\nEvery flat has a milk criminal. Tag yours.\n\nOne More Clue: a mystery game you solve with your friends. The first case is free, no app, no sign-up.",
+      "publishAt": "2026-11-17T19:00:00+04:00",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
