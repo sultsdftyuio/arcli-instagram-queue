@@ -582,10 +582,19 @@
       "file": "omc-milk-noir.mp4",
       "caption": "Who put the empty milk back? 🥛🕵️\n\nEvery flat has a milk criminal. Tag yours.\n\nOne More Clue: a mystery game you solve with your friends. The first case is free, no app, no sign-up.",
       "publishAt": "2026-11-17T14:25:53.000Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-17T14:27:28.727Z",
+      "mediaId": "18252845929315979",
+      "permalink": "https://www.instagram.com/reel/Df2JJeIj0ji/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df2JWBKg8Sa"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     },
     {
@@ -593,10 +602,19 @@
       "file": "omc-teeth-dollhouse.mp4",
       "caption": "How did Grandma's teeth end up in the fishbowl? 🐟🦷\n\nWatch it again and follow them all the way down.\n\nOne More Clue: a mystery game you solve with your friends. The first case is free, no app, no sign-up.",
       "publishAt": "2026-11-17T14:25:54.000Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-17T14:28:26.275Z",
+      "mediaId": "17963351394250290",
+      "permalink": "https://www.instagram.com/reel/Df2JRqgkyKl/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df2JfwSqYqx"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
