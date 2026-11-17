@@ -622,10 +622,19 @@
       "file": "omc-spot-the-thief.mp4",
       "caption": "Spot the thief 🍉🏖️\n\nHe hides in plain sight three times. How fast did you find him?\n\nOne More Clue: a mystery game you solve with your friends. The first case is free, no app, no sign-up.",
       "publishAt": "2026-11-17T17:07:54.761Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-17T17:09:46.704Z",
+      "mediaId": "18122709244955846",
+      "permalink": "https://www.instagram.com/reel/Df2bu0ZlSbH/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df2bzOrtkYh"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
