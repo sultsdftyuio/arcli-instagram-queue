@@ -1,4 +1,4 @@
-// End-to-end test of crosspost.mjs against a local mock of Threads, Google/YouTube, TikTok and LinkedIn.
+// End-to-end test of crosspost.mjs against a local mock of Threads, Google/YouTube, TikTok, LinkedIn and Facebook.
 //   node test/crosspost-mock.mjs
 // Copies the scripts into a temp folder with a fake posted Reel, runs crosspost.mjs there, and checks
 // that each platform got the right calls, that the queue records the results, and that the video
@@ -93,6 +93,31 @@ const server = createServer(async (req, res) => {
     res.writeHead(201, { "x-restli-id": "urn:li:share:9" });
     return res.end();
   }
+  // Facebook Reels: start, binary upload, finish, then status
+  if (path === "/v25.0/77/video_reels" && req.headers["content-type"]?.startsWith("application/json")) {
+    const b = JSON.parse(body.toString());
+    assert.equal(b.upload_phase, "start");
+    assert.equal(b.access_token, "fbt");
+    return json({ video_id: "fbv1", upload_url: `${base}/fb-upload/fbv1` });
+  }
+  if (path === "/fb-upload/fbv1") {
+    assert.equal(req.headers.authorization, "OAuth fbt");
+    assert.equal(req.headers.offset, "0");
+    assert.equal(Number(req.headers.file_size), body.length);
+    return json({ success: true });
+  }
+  if (path === "/v25.0/77/video_reels") {
+    const form = new URLSearchParams(body.toString());
+    assert.equal(form.get("upload_phase"), "finish");
+    assert.equal(form.get("video_state"), "PUBLISHED");
+    assert.equal(form.get("video_id"), "fbv1");
+    assert.match(form.get("description"), /94% SURE/);
+    return json({ success: true });
+  }
+  if (path === "/v25.0/fbv1") {
+    assert.equal(url.searchParams.get("fields"), "status");
+    return json({ status: { video_status: "ready", publishing_phase: { status: "completed", publish_status: "published" } } });
+  }
   res.writeHead(404, { "Content-Type": "application/json" });
   res.end(JSON.stringify({ error: { message: `no mock for ${req.method} ${path}` } }));
 });
@@ -107,7 +132,7 @@ execFileSync("ffmpeg", ["-v", "error", "-f", "lavfi", "-i", "color=c=navy:s=360x
 const caption = "we've all paid for a \"94% SURE\" card (a test)\n\narcli.tech\n\n#founders #smallbusiness";
 writeFileSync(join(dir, "queue.json"), JSON.stringify({
   posts: [
-    { id: "test-reel", file: "test-reel.mp4", caption, publishAt: "2026-01-01T00:00:00Z", status: "posted", cross: { threads: "pending", youtube: "pending", tiktok: "pending", linkedin: "pending" } },
+    { id: "test-reel", file: "test-reel.mp4", caption, publishAt: "2026-01-01T00:00:00Z", status: "posted", cross: { threads: "pending", youtube: "pending", tiktok: "pending", linkedin: "pending", facebook: "pending" } },
     { id: "old-reel", file: "old.mp4", caption, publishAt: "2025-01-01T00:00:00Z", status: "posted" },
   ],
 }));
@@ -119,6 +144,7 @@ const env = {
   YT_OAUTH_BASE: base, YT_UPLOAD_BASE: base, YT_CLIENT_ID: "id", YT_CLIENT_SECRET: "s", YT_REFRESH_TOKEN: "r",
   TIKTOK_API_BASE: base, TIKTOK_CLIENT_KEY: "k", TIKTOK_CLIENT_SECRET: "s", TIKTOK_REFRESH_TOKEN: "rft.old",
   LINKEDIN_API_BASE: base, LINKEDIN_ACCESS_TOKEN: "li", LINKEDIN_AUTHOR: "urn:li:person:abc",
+  FB_API_BASE: base, FB_PAGE_ID: "77", FB_PAGE_TOKEN: "fbt",
   GH_TOKEN: "", GITHUB_REPOSITORY: "",
 };
 // async, so this process can keep answering as the mock server
@@ -126,7 +152,9 @@ const { stdout: out } = await run("node", ["scripts/crosspost.mjs"], { cwd: dir,
 console.log(out.trim());
 const q = JSON.parse(readFileSync(join(dir, "queue.json"), "utf8"));
 const post = q.posts[0];
-assert.deepEqual(post.cross, { threads: "posted", youtube: "posted", tiktok: "drafted", linkedin: "posted" });
+assert.deepEqual(post.cross, { threads: "posted", youtube: "posted", tiktok: "drafted", linkedin: "posted", facebook: "posted" });
+assert.equal(post.crossUrl.facebook, "https://www.facebook.com/reel/fbv1");
+assert.equal(post.crossNote?.facebook, undefined);
 assert.equal(post.crossUrl.youtube, "https://www.youtube.com/shorts/yt123");
 assert.equal(post.crossUrl.linkedin, "https://www.linkedin.com/feed/update/urn:li:share:9/");
 assert.match(post.crossNote.youtube, /private/);

@@ -1,4 +1,4 @@
-// Publishers for the platforms that follow Instagram: Threads, YouTube Shorts, TikTok (drafts) and LinkedIn.
+// Publishers for the platforms that follow Instagram: Threads, YouTube Shorts, TikTok (drafts), LinkedIn and Facebook Reels.
 // Each takes a queue post and the local video path, and returns { status, url?, note? }.
 // Every API host can be pointed at a local mock through an environment variable (see test/crosspost-mock.mjs).
 import { execFileSync } from "node:child_process";
@@ -215,5 +215,43 @@ export const linkedin = {
   },
 };
 
-export const platforms = { threads, youtube, tiktok, linkedin };
+// ---------------- Facebook Reels: a public Reel on the Page through the Reels Publishing API (start, upload, finish)
+const FB = env.FB_API_BASE || "https://graph.facebook.com";
+
+export const facebook = {
+  name: "Facebook Reels",
+  ready: () => Boolean(env.FB_PAGE_ID && env.FB_PAGE_TOKEN),
+  async publish(post, file) {
+    const token = env.FB_PAGE_TOKEN;
+    const graph = `${FB}/${config.apiVersion || "v25.0"}`;
+    const reels = `${graph}/${env.FB_PAGE_ID}/video_reels`;
+    const { data: init } = await call("POST", reels, { json: { upload_phase: "start", access_token: token } });
+    const bytes = readFileSync(file);
+    const { data: upload } = await call("POST", init.upload_url, {
+      headers: { Authorization: `OAuth ${token}`, offset: "0", file_size: String(bytes.length), "Content-Type": "application/octet-stream" },
+      body: bytes,
+    });
+    if (upload.success !== true) throw new Error(`Facebook upload failed: ${upload.debug_info?.message ?? JSON.stringify(upload).slice(0, 200)}`);
+    await call("POST", reels, {
+      form: { access_token: token, video_id: init.video_id, upload_phase: "finish", video_state: "PUBLISHED", description: post.caption },
+    });
+    // Publishing finishes after processing; wait for it so a rejected video shows up as a failure here.
+    let status = {};
+    for (let i = 0; i < 30; i++) {
+      await sleep(pollMs);
+      ({ data: { status = {} } } = await call("GET", `${graph}/${init.video_id}?fields=status&access_token=${encodeURIComponent(token)}`));
+      const broken = [status.uploading_phase, status.processing_phase, status.publishing_phase].find((phase) => phase?.status === "error");
+      if (broken || status.video_status === "error") {
+        const why = broken?.errors?.[0]?.message ?? broken?.error?.message ?? status.video_status;
+        throw new Error(`Facebook could not publish the Reel: ${why}`);
+      }
+      if (status.publishing_phase?.publish_status === "published") break;
+    }
+    const url = `https://www.facebook.com/reel/${init.video_id}`;
+    const done = status.publishing_phase?.publish_status === "published";
+    return { status: "posted", url, note: done ? undefined : "Facebook was still processing it when the run ended" };
+  },
+};
+
+export const platforms = { threads, youtube, tiktok, linkedin, facebook };
 export { littleText };

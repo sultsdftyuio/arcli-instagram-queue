@@ -1,5 +1,5 @@
 // One-time sign-in for each platform. Run it yourself in a terminal:
-//   node scripts/connect.mjs threads | youtube | tiktok | linkedin
+//   node scripts/connect.mjs threads | youtube | tiktok | linkedin | facebook
 // It asks for the app's id and secret (from the platform's developer site), prints a sign-in link,
 // and after you approve, asks for the code shown on the callback page. It then writes the values
 // to .secrets/<platform>.txt (git-ignored) as NAME=value lines, to paste into the repository's
@@ -78,11 +78,38 @@ const flows = {
     console.log(`LinkedIn token lasts ${days} days; run this again before then.`);
     return { LINKEDIN_ACCESS_TOKEN: tok.access_token, LINKEDIN_AUTHOR: `urn:li:person:${me.sub}` };
   },
+  async facebook() {
+    const id = await ask("Meta app ID: ");
+    const secret = await ask("Meta app secret: ");
+    const configId = await ask("Facebook Login for Business configuration ID (press Enter if the app uses plain Facebook Login): ");
+    const v = config.apiVersion || "v25.0";
+    // Facebook Login for Business takes a configuration instead of a scope list.
+    const login = configId
+      ? `config_id=${encodeURIComponent(configId)}&response_type=code&override_default_response_type=true`
+      : "scope=pages_show_list,pages_read_engagement,pages_manage_posts&response_type=code";
+    console.log(`\nOpen this link, sign in as an admin of the game's Facebook Page, allow everything and tick the Page, then copy the code:\nhttps://www.facebook.com/${v}/dialog/oauth?client_id=${id}&redirect_uri=${encodeURIComponent(REDIRECT)}&${login}&state=${state}\n`);
+    const code = await ask("Code: ");
+    const graph = `https://graph.facebook.com/${v}`;
+    const short = await get(`${graph}/oauth/access_token?client_id=${id}&client_secret=${secret}&redirect_uri=${encodeURIComponent(REDIRECT)}&code=${encodeURIComponent(code)}`);
+    // A Page token taken from a long-lived user token does not expire.
+    const long = await get(`${graph}/oauth/access_token?grant_type=fb_exchange_token&client_id=${id}&client_secret=${secret}&fb_exchange_token=${short.access_token}`);
+    const { data: pages = [] } = await get(`${graph}/me/accounts?fields=id,name,access_token,tasks&access_token=${long.access_token}`);
+    const usable = pages.filter((page) => page.access_token && (page.tasks ?? []).includes("CREATE_CONTENT"));
+    if (!usable.length) throw new Error("no Page came back that this account can post to; tick the Page when approving, and check you are its admin");
+    let page = usable[0];
+    if (usable.length > 1) {
+      usable.forEach((p, i) => console.log(`${i + 1}. ${p.name}`));
+      page = usable[Number(await ask("Which Page should get the Reels? Number: ")) - 1];
+      if (!page) throw new Error("no Page with that number");
+    }
+    console.log(`Reels will go to the Page "${page.name}".`);
+    return { FB_PAGE_ID: page.id, FB_PAGE_TOKEN: page.access_token };
+  },
 };
 
 const name = process.argv[2];
 if (!flows[name]) {
-  console.error("Usage: node scripts/connect.mjs threads | youtube | tiktok | linkedin");
+  console.error("Usage: node scripts/connect.mjs threads | youtube | tiktok | linkedin | facebook");
   process.exit(1);
 }
 try {

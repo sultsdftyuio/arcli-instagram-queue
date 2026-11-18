@@ -37,7 +37,7 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
 
-      # the same Reel on Threads, YouTube Shorts, TikTok (drafts) and LinkedIn, once it is live on Instagram
+      # the same Reel on Threads, YouTube Shorts, TikTok (drafts), LinkedIn and Facebook Reels, once it is live on Instagram
       - name: Cross-post
         if: always()
         run: node scripts/crosspost.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
@@ -52,6 +52,8 @@ jobs:
           TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
           LINKEDIN_AUTHOR: ${{ secrets.LINKEDIN_AUTHOR }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Save queue state

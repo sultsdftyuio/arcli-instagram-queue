@@ -68,7 +68,7 @@ A change only takes effect once it is committed and pushed. Pull first, because 
 - If a run fails (rejected video, expired token), GitHub emails the repository owner and the post is marked `failed` with the reason.
 - Each posted video stays in the repository's git history (about 15 MB each). At two posts a day that is roughly 1 GB a month, so the storage needs revisiting after a few months.
 
-## Other platforms (Threads, YouTube Shorts, TikTok, LinkedIn)
+## Other platforms (Threads, YouTube Shorts, TikTok, LinkedIn, Facebook Reels)
 
 Once a Reel is live on Instagram, the same publish run sends it to each platform listed in
 `crossPost` in `config.json` (`scripts/crosspost.mjs`, code in `scripts/platforms.mjs`). The queue
@@ -79,7 +79,7 @@ platform is done. `queue.mjs add ... --only instagram` posts a Reel to Instagram
 To connect a platform:
 1. Create a developer app (steps below) with this redirect URL:
    `https://sultsdftyuio.github.io/arcli-instagram-queue/callback.html`
-2. Run `node scripts/connect.mjs <threads|youtube|tiktok|linkedin>` and follow it. It writes
+2. Run `node scripts/connect.mjs <threads|youtube|tiktok|linkedin|facebook>` and follow it. It writes
    the values to `.secrets/<platform>.txt` (git-ignored); nothing is printed.
 3. Add each line of that file as a repository secret (Settings > Secrets and variables > Actions).
 4. Add the platform's name to `crossPost` in `config.json`, commit and push.
@@ -90,5 +90,6 @@ To connect a platform:
 | YouTube Shorts | console.cloud.google.com: a project with the YouTube Data API v3, OAuth consent screen (External, then **Publish app** so the refresh token does not expire after 7 days), an OAuth client of type Web application | Until the project passes Google's API audit (a free form), uploads are forced to private; the queue notes this. About 6 uploads a day on the default quota. |
 | TikTok | developers.tiktok.com: an app with Login Kit and Content Posting API, scopes `user.info.basic`, `video.upload` | Before TikTok's review the Reel goes to your TikTok inbox as a draft: open the notification, add the caption and post. The refresh token rotates and is saved back automatically (needs `GH_PAT`). |
 | LinkedIn | linkedin.com/developers: an app with the products "Sign In with LinkedIn using OpenID Connect" and "Share on LinkedIn" | Posts as you (a company page needs separate approval). The token lasts 60 days with no automatic renewal: run `connect.mjs linkedin` again before it runs out. |
+| Facebook Reels | developers.facebook.com: a Meta app (the Instagram one can be used) with the use case "Manage everything on your Page" (`pages_show_list`, `pages_read_engagement`, `pages_manage_posts`) and the redirect URL under Facebook Login > Settings > Valid OAuth Redirect URIs. If the app uses Facebook Login for Business, make a configuration (user access token, those permissions, the Page) and give its ID to `connect.mjs`. You must be an admin of the Page. | Posts a public Reel as the Page, with the whole caption. Works while the app is in Development mode, because it only posts to a Page the app's admin runs. The Page token doesn't expire; run `connect.mjs facebook` again if the Facebook password changes or the app's access is removed. At most 30 Reels a day. |
 
-`node test/crosspost-mock.mjs` runs the whole flow against a local mock of all four APIs.
+`node test/crosspost-mock.mjs` runs the whole flow against a local mock of all five APIs.
