@@ -662,10 +662,19 @@
       "file": "omc-auto-20261118-which-glass.mp4",
       "caption": "Which glass fills first?\nCall it before the lemonade gets there, then try round 2. Lemon, lime or orange? Drop your answers for both in the comments.\nFirst case is free, plays in your browser with friends. Link in bio.\n#puzzle #brainteaser #mystery #gamenight #boardgame",
       "publishAt": "2026-11-18T15:25:02.126Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-18T15:26:00.758Z",
+      "mediaId": "17944444593396759",
+      "permalink": "https://www.instagram.com/reel/Df40qo0gGaM/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df40uZOhhDX"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
