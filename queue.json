@@ -642,10 +642,19 @@
       "file": "omc-auto-20261118-how-many-keys.mp4",
       "caption": "How many keys?\nCount every key before the ring runs out, then put your number in the comments. No peeking at other answers first.\nFirst case is free, plays in your browser with friends. Link in bio.\n#mystery #puzzle #gamenight #boardgame #spotit",
       "publishAt": "2026-11-18T14:30:12.139Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-18T14:31:32.922Z",
+      "mediaId": "17915119941480833",
+      "permalink": "https://www.instagram.com/reel/Df4ua3aCito/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df4ufXrPIP5"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
