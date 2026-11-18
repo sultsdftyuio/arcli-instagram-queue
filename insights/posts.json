@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T20:41:17.009Z",
+  "fetchedAt": "2026-11-18T09:46:59.937Z",
   "posts": [
     {
       "id": "18119900456006709",
@@ -142,7 +142,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 7805,
+      "ig_reels_avg_watch_time": 7753,
       "reels_skip_rate": 47.6
     },
     {
@@ -183,15 +183,31 @@
       "postedAt": "2026-11-17T14:28:21+0000",
       "permalink": "https://www.instagram.com/reel/Df2JRqgkyKl/",
       "caption": "How did Grandma's teeth end up in the fishbowl? 🐟🦷",
-      "views": 139,
-      "reach": 123,
+      "views": 141,
+      "reach": 125,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 5954,
-      "reels_skip_rate": 56.6
+      "ig_reels_avg_watch_time": 5866,
+      "reels_skip_rate": 56.5
+    },
+    {
+      "id": "18122709244955846",
+      "type": "VIDEO",
+      "postedAt": "2026-11-17T17:09:40+0000",
+      "permalink": "https://www.instagram.com/reel/Df2bu0ZlSbH/",
+      "caption": "Spot the thief 🍉🏖️",
+      "views": 137,
+      "reach": 119,
+      "likes": 3,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 3,
+      "ig_reels_avg_watch_time": 4234,
+      "reels_skip_rate": 62.5
     },
     {
       "id": "18109724467970905",
@@ -208,22 +224,6 @@
       "total_interactions": 3,
       "ig_reels_avg_watch_time": 3325,
       "reels_skip_rate": 71.2
-    },
-    {
-      "id": "18122709244955846",
-      "type": "VIDEO",
-      "postedAt": "2026-11-17T17:09:40+0000",
-      "permalink": "https://www.instagram.com/reel/Df2bu0ZlSbH/",
-      "caption": "Spot the thief 🍉🏖️",
-      "views": 134,
-      "reach": 113,
-      "likes": 3,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 3,
-      "ig_reels_avg_watch_time": 4086,
-      "reels_skip_rate": 62.4
     },
     {
       "id": "18016645691985699",
@@ -354,6 +354,22 @@
       "reels_skip_rate": 71.8
     },
     {
+      "id": "18252845929315979",
+      "type": "VIDEO",
+      "postedAt": "2026-11-17T14:27:20+0000",
+      "permalink": "https://www.instagram.com/reel/Df2JJeIj0ji/",
+      "caption": "Who put the empty milk back? 🥛🕵️",
+      "views": 115,
+      "reach": 105,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 6129,
+      "reels_skip_rate": 44.9
+    },
+    {
       "id": "18115165856171647",
       "type": "VIDEO",
       "postedAt": "2026-11-12T17:54:24+0000",
@@ -368,22 +384,6 @@
       "total_interactions": 1,
       "ig_reels_avg_watch_time": 3543,
       "reels_skip_rate": 59
-    },
-    {
-      "id": "18252845929315979",
-      "type": "VIDEO",
-      "postedAt": "2026-11-17T14:27:20+0000",
-      "permalink": "https://www.instagram.com/reel/Df2JJeIj0ji/",
-      "caption": "Who put the empty milk back? 🥛🕵️",
-      "views": 63,
-      "reach": 59,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 0,
-      "ig_reels_avg_watch_time": 4845,
-      "reels_skip_rate": 52.5
     },
     {
       "id": "18110017916565855",
