@@ -722,10 +722,19 @@
       "file": "omc-auto-20261118-pause-challenge.mp4",
       "caption": "Can you pause on the gold?\nThree tries: the star, the gold duck, then both ducks at once. The last one lines up for a single frame. How many did you get, 0 to 3?\nFirst case is free, plays in your browser with friends. Link in bio.\n#challenge #mystery #gamenight #boardgame #puzzle",
       "publishAt": "2026-11-18T20:45:49.367Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-18T20:47:17.791Z",
+      "mediaId": "17976332679176794",
+      "permalink": "https://www.instagram.com/reel/Df5ZZycHLbJ/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df5ZfR7h098"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
