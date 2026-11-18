@@ -702,10 +702,19 @@
       "file": "omc-auto-20261118-odd-tulip.mp4",
       "caption": "Spot the odd one\nThree rounds, and the last one has two. How many did you get before the ring showed up? Say 0, 1, 2 or 3 in the comments.\nFirst case is free, plays in your browser with friends. Link in bio.\n#spotthedifference #puzzle #mystery #gamenight #boardgame",
       "publishAt": "2026-11-18T20:28:52.134Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-18T20:30:19.188Z",
+      "mediaId": "18112482286923151",
+      "permalink": "https://www.instagram.com/reel/Df5XeOECWBv/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df5XjAZB6BO"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
