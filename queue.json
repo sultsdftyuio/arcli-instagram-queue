@@ -822,10 +822,19 @@
       "file": "omc-auto-20261119-shoot-whats-off.mp4",
       "caption": "Shoot what's off\nYou're the Photographer and the plough comes at 9:00. Did you spot both before the camera did, or did the skis fool you too? Tell us in the comments, and tag the friend who'd take the Tech's seat.\nFirst case is free, plays in your browser with friends. Link in bio.\n#mystery #boardgame #gamenight #puzzle #detective",
       "publishAt": "2026-11-19T14:38:35.134Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-19T14:40:38.719Z",
+      "mediaId": "18255448546309384",
+      "permalink": "https://www.instagram.com/reel/Df7UQBCD3xH/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df7UUy4hGhp"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
