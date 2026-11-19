@@ -802,10 +802,19 @@
       "file": "omc-auto-20261119-what-comes-next.mp4",
       "caption": "What comes next?\nTwo boxes open. The third one doesn't, because the shift ends first. What toy is inside it? Answer in the comments, then rewatch the last line of toys.\nFirst case is free, plays in your browser with friends. Link in bio.\n#puzzle #patterns #mystery #gamenight #boardgame",
       "publishAt": "2026-11-19T12:33:30.439Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-19T12:34:50.810Z",
+      "mediaId": "18111343388462940",
+      "permalink": "https://www.instagram.com/reel/Df7F253AnLb/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df7F7YoB29H"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
