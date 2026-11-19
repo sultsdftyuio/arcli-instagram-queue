@@ -742,10 +742,19 @@
       "file": "omc-auto-20261119-what-is-it.mp4",
       "caption": "What is it? Three close-ups\nCall each one before the zoom hits 1.0x. The last one is not what it looks like. How many did you get, 0 to 3?\nFirst case is free, plays in your browser with friends. Link in bio.\n#guesswhat #puzzle #mystery #gamenight #boardgame",
       "publishAt": "2026-11-19T03:29:03.757Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-19T03:31:06.519Z",
+      "mediaId": "17899925748413985",
+      "permalink": "https://www.instagram.com/reel/Df6HopIkc1d/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/Df6Hs_OhqEj"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
