@@ -1194,7 +1194,7 @@
         "threads": "https://www.threads.com/@onemoreclue1/post/DgMoWhjOszT"
       },
       "crossTries": {
-        "tiktok": 1
+        "tiktok": 2
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
@@ -1205,10 +1205,22 @@
       "file": "omc-auto-20261126-which-two.mp4",
       "caption": "Which two can't both be true: 1, 2 or 3?\nThe string already ruled out one pair. Rewatch the corridor before you answer.\nThe evidence wall at the Halden lab, Case 001: The Last Message. First case is free, plays in your browser with friends. Link in bio.\n#mystery #whodunit #gamenight #puzzle #boardgame",
       "publishAt": "2026-11-26T09:29:34.143Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
+        "threads": "posted",
         "tiktok": "pending"
+      },
+      "postedAt": "2026-11-26T09:30:55.635Z",
+      "mediaId": "18473949307186395",
+      "permalink": "https://www.instagram.com/reel/DgMyXikxQuX/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgMychMNTpi"
+      },
+      "crossTries": {
+        "tiktok": 1
+      },
+      "crossError": {
+        "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
     }
   ]
