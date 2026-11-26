@@ -1185,7 +1185,7 @@
       "status": "posted",
       "cross": {
         "threads": "posted",
-        "tiktok": "pending"
+        "tiktok": "failed"
       },
       "postedAt": "2026-11-26T08:02:43.858Z",
       "mediaId": "17914022523657696",
@@ -1194,7 +1194,7 @@
         "threads": "https://www.threads.com/@onemoreclue1/post/DgMoWhjOszT"
       },
       "crossTries": {
-        "tiktok": 2
+        "tiktok": 3
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
@@ -1217,7 +1217,7 @@
         "threads": "https://www.threads.com/@onemoreclue1/post/DgMychMNTpi"
       },
       "crossTries": {
-        "tiktok": 1
+        "tiktok": 2
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
@@ -1228,10 +1228,22 @@
       "file": "omc-auto-20261126-which-pot.mp4",
       "caption": "Which copper pot is the fake one: 1, 2 or 3?\nWatch the lamps, then rewatch before you answer.\nMaison Lune's kitchen, Case 003: The Last Course. First case is free, plays in your browser with friends. Link in bio.\n#mystery #puzzle #gamenight #boardgame #detective",
       "publishAt": "2026-11-26T10:56:53.397Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
+        "threads": "posted",
         "tiktok": "pending"
+      },
+      "postedAt": "2026-11-26T10:58:18.422Z",
+      "mediaId": "18115933343145748",
+      "permalink": "https://www.instagram.com/reel/DgM8XkuMw-O/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgM8cs7xzD-"
+      },
+      "crossTries": {
+        "tiktok": 1
+      },
+      "crossError": {
+        "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
     }
   ]
