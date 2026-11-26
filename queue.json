@@ -1245,6 +1245,17 @@
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
+    },
+    {
+      "id": "omc-auto-20261126-which-one",
+      "file": "omc-auto-20261126-which-one.mp4",
+      "caption": "Which one are you: SHOOT, SEARCH or ASK? Tag your friends.\nEvery player gets a different tool and different evidence, so nobody solves it alone.\nFirst case is free, plays in your browser with friends. Link in bio.\n#mystery #gamenight #boardgame #puzzle #friends",
+      "publishAt": "2026-11-26T12:27:03.682Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
