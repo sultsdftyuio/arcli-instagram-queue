@@ -1254,7 +1254,7 @@
       "status": "posted",
       "cross": {
         "threads": "posted",
-        "tiktok": "pending"
+        "tiktok": "drafted"
       },
       "postedAt": "2026-11-26T12:28:02.913Z",
       "mediaId": "18106099130457233",
@@ -1267,6 +1267,9 @@
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     },
     {
@@ -1274,10 +1277,19 @@
       "file": "omc-auto-20261126-who-used-mic.mp4",
       "caption": "Who used the mic last: Tess, Darla or Gus?\nThe mic slipped. One thing didn't move. Rewatch before you answer.\nStudio B at the Night Owls radio station, from Case 002: Dead Air. First case is free, plays in your browser with friends. Link in bio.\n#mystery #puzzle #gamenight #boardgame #whodunit",
       "publishAt": "2026-11-26T14:31:25.651Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-26T14:33:37.913Z",
+      "mediaId": "17901449001457768",
+      "permalink": "https://www.instagram.com/reel/DgNVBIvgKH7/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgNVJEBqqUx"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
