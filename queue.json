@@ -1182,10 +1182,22 @@
       "file": "omc-auto-20261126-who-sat.mp4",
       "caption": "Who sat on the cushion: Lily, Sir Reginald or Greta?\nTwo clues are on screen. Rewatch before you answer.\nPinecrest Lodge, Case 004: Snowed In. First case is free, plays in your browser with friends. Link in bio.\n#mystery #whodunit #gamenight #puzzle #boardgame",
       "publishAt": "2026-11-26T08:01:35.169Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
+        "threads": "posted",
         "tiktok": "pending"
+      },
+      "postedAt": "2026-11-26T08:02:43.858Z",
+      "mediaId": "17914022523657696",
+      "permalink": "https://www.instagram.com/reel/DgMoRl9hczC/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgMoWhjOszT"
+      },
+      "crossTries": {
+        "tiktok": 1
+      },
+      "crossError": {
+        "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
     }
   ]
