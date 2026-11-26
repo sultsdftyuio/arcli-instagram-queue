@@ -1268,6 +1268,17 @@
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
+    },
+    {
+      "id": "omc-auto-20261126-who-used-mic",
+      "file": "omc-auto-20261126-who-used-mic.mp4",
+      "caption": "Who used the mic last: Tess, Darla or Gus?\nThe mic slipped. One thing didn't move. Rewatch before you answer.\nStudio B at the Night Owls radio station, from Case 002: Dead Air. First case is free, plays in your browser with friends. Link in bio.\n#mystery #puzzle #gamenight #boardgame #whodunit",
+      "publishAt": "2026-11-26T14:31:25.651Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
