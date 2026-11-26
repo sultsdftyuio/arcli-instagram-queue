@@ -1222,6 +1222,17 @@
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
+    },
+    {
+      "id": "omc-auto-20261126-which-pot",
+      "file": "omc-auto-20261126-which-pot.mp4",
+      "caption": "Which copper pot is the fake one: 1, 2 or 3?\nWatch the lamps, then rewatch before you answer.\nMaison Lune's kitchen, Case 003: The Last Course. First case is free, plays in your browser with friends. Link in bio.\n#mystery #puzzle #gamenight #boardgame #detective",
+      "publishAt": "2026-11-26T10:56:53.397Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
