@@ -1231,7 +1231,7 @@
       "status": "posted",
       "cross": {
         "threads": "posted",
-        "tiktok": "pending"
+        "tiktok": "failed"
       },
       "postedAt": "2026-11-26T10:58:18.422Z",
       "mediaId": "18115933343145748",
@@ -1240,7 +1240,7 @@
         "threads": "https://www.threads.com/@onemoreclue1/post/DgM8cs7xzD-"
       },
       "crossTries": {
-        "tiktok": 2
+        "tiktok": 3
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
@@ -1251,10 +1251,22 @@
       "file": "omc-auto-20261126-which-one.mp4",
       "caption": "Which one are you: SHOOT, SEARCH or ASK? Tag your friends.\nEvery player gets a different tool and different evidence, so nobody solves it alone.\nFirst case is free, plays in your browser with friends. Link in bio.\n#mystery #gamenight #boardgame #puzzle #friends",
       "publishAt": "2026-11-26T12:27:03.682Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
+        "threads": "posted",
         "tiktok": "pending"
+      },
+      "postedAt": "2026-11-26T12:28:02.913Z",
+      "mediaId": "18106099130457233",
+      "permalink": "https://www.instagram.com/reel/DgNGqYaNjau/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgNGt4Up_Au"
+      },
+      "crossTries": {
+        "tiktok": 1
+      },
+      "crossError": {
+        "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
     }
   ]
