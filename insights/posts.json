@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T16:34:58.127Z",
+  "fetchedAt": "2026-11-27T10:34:22.104Z",
   "posts": [
     {
       "id": "18171391642467584",
@@ -16,6 +16,22 @@
       "total_interactions": 15,
       "ig_reels_avg_watch_time": 10177,
       "reels_skip_rate": 30.8
+    },
+    {
+      "id": "17901449001457768",
+      "type": "VIDEO",
+      "postedAt": "2026-11-26T14:33:32+0000",
+      "permalink": "https://www.instagram.com/reel/DgNVBIvgKH7/",
+      "caption": "Who used the mic last: Tess, Darla or Gus?",
+      "views": 2020,
+      "reach": 1191,
+      "likes": 13,
+      "comments": 1,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 14,
+      "ig_reels_avg_watch_time": 11799,
+      "reels_skip_rate": 28.8
     },
     {
       "id": "17981849714922710",
@@ -55,14 +71,14 @@
       "postedAt": "2026-11-26T03:28:03+0000",
       "permalink": "https://www.instagram.com/reel/DgMI3lapKPq/",
       "caption": "How many pepper mills fall?",
-      "views": 1695,
-      "reach": 1202,
+      "views": 1699,
+      "reach": 1203,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 7846,
+      "ig_reels_avg_watch_time": 7842,
       "reels_skip_rate": 30.9
     },
     {
@@ -103,15 +119,47 @@
       "postedAt": "2026-11-26T06:37:47+0000",
       "permalink": "https://www.instagram.com/reel/DgMekZ6tjuO/",
       "caption": "Who blinks first?",
-      "views": 1663,
-      "reach": 1070,
+      "views": 1664,
+      "reach": 1073,
       "likes": 9,
       "comments": 0,
       "shares": 0,
       "saved": 1,
       "total_interactions": 10,
-      "ig_reels_avg_watch_time": 8809,
+      "ig_reels_avg_watch_time": 8802,
       "reels_skip_rate": 36.4
+    },
+    {
+      "id": "17969185043981730",
+      "type": "VIDEO",
+      "postedAt": "2026-11-27T06:34:46+0000",
+      "permalink": "https://www.instagram.com/reel/DgPDCzNpc10/",
+      "caption": "Has your toast ever landed butter side up?",
+      "views": 1657,
+      "reach": 1229,
+      "likes": 13,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 14,
+      "ig_reels_avg_watch_time": 10357,
+      "reels_skip_rate": 29.2
+    },
+    {
+      "id": "18099876860444988",
+      "type": "VIDEO",
+      "postedAt": "2026-11-25T14:27:58+0000",
+      "permalink": "https://www.instagram.com/reel/DgKvlXMI35C/",
+      "caption": "Will the paper plane reach Ozzy?",
+      "views": 1649,
+      "reach": 1079,
+      "likes": 11,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 11,
+      "ig_reels_avg_watch_time": 8322,
+      "reels_skip_rate": 38.4
     },
     {
       "id": "18133240399863047",
@@ -130,22 +178,6 @@
       "reels_skip_rate": 30.4
     },
     {
-      "id": "18099876860444988",
-      "type": "VIDEO",
-      "postedAt": "2026-11-25T14:27:58+0000",
-      "permalink": "https://www.instagram.com/reel/DgKvlXMI35C/",
-      "caption": "Will the paper plane reach Ozzy?",
-      "views": 1646,
-      "reach": 1078,
-      "likes": 11,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 11,
-      "ig_reels_avg_watch_time": 8319,
-      "reels_skip_rate": 38.5
-    },
-    {
       "id": "17946209073371931",
       "type": "VIDEO",
       "postedAt": "2026-11-14T15:22:51+0000",
@@ -162,20 +194,20 @@
       "reels_skip_rate": 31
     },
     {
-      "id": "18643700008018283",
+      "id": "17914022523657696",
       "type": "VIDEO",
-      "postedAt": "2026-11-12T17:26:42+0000",
-      "permalink": "https://www.instagram.com/reel/DfpltCoE2TW/",
-      "caption": "be honest… where did they go? 👣🔍 1, 2 or 3?",
-      "views": 1618,
-      "reach": 1147,
-      "likes": 4,
-      "comments": 0,
+      "postedAt": "2026-11-26T08:02:37+0000",
+      "permalink": "https://www.instagram.com/reel/DgMoRl9hczC/",
+      "caption": "Who sat on the cushion: Lily, Sir Reginald or Greta?",
+      "views": 1549,
+      "reach": 1043,
+      "likes": 19,
+      "comments": 1,
       "shares": 0,
-      "saved": 0,
-      "total_interactions": 4,
-      "ig_reels_avg_watch_time": 7207,
-      "reels_skip_rate": 41.7
+      "saved": 1,
+      "total_interactions": 21,
+      "ig_reels_avg_watch_time": 9101,
+      "reels_skip_rate": 32.2
     },
     {
       "id": "17899925748413985",
@@ -231,14 +263,14 @@
       "postedAt": "2026-11-25T12:29:41+0000",
       "permalink": "https://www.instagram.com/reel/DgKiDuvuWRw/",
       "caption": "Will it ring by 7?",
-      "views": 1441,
+      "views": 1442,
       "reach": 1090,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 6937,
+      "ig_reels_avg_watch_time": 6931,
       "reels_skip_rate": 41.8
     },
     {
@@ -306,20 +338,20 @@
       "reels_skip_rate": 40.5
     },
     {
-      "id": "17914022523657696",
+      "id": "18105373829546144",
       "type": "VIDEO",
-      "postedAt": "2026-11-26T08:02:37+0000",
-      "permalink": "https://www.instagram.com/reel/DgMoRl9hczC/",
-      "caption": "Who sat on the cushion: Lily, Sir Reginald or Greta?",
-      "views": 1248,
-      "reach": 840,
-      "likes": 11,
-      "comments": 1,
+      "postedAt": "2026-11-27T03:34:36+0000",
+      "permalink": "https://www.instagram.com/reel/DgOuZ0KIKva/",
+      "caption": "Send this to the coworker who leaves it to soak.",
+      "views": 1270,
+      "reach": 1039,
+      "likes": 4,
+      "comments": 0,
       "shares": 0,
-      "saved": 1,
-      "total_interactions": 13,
-      "ig_reels_avg_watch_time": 8847,
-      "reels_skip_rate": 32.3
+      "saved": 0,
+      "total_interactions": 4,
+      "ig_reels_avg_watch_time": 7435,
+      "reels_skip_rate": 35
     },
     {
       "id": "18115933343145748",
@@ -327,15 +359,31 @@
       "postedAt": "2026-11-26T10:58:11+0000",
       "permalink": "https://www.instagram.com/reel/DgM8XkuMw-O/",
       "caption": "Which copper pot is the fake one: 1, 2 or 3?",
-      "views": 752,
-      "reach": 599,
-      "likes": 1,
+      "views": 939,
+      "reach": 757,
+      "likes": 8,
       "comments": 1,
       "shares": 0,
-      "saved": 1,
-      "total_interactions": 3,
-      "ig_reels_avg_watch_time": 6288,
-      "reels_skip_rate": 41.9
+      "saved": 2,
+      "total_interactions": 11,
+      "ig_reels_avg_watch_time": 6275,
+      "reels_skip_rate": 42.7
+    },
+    {
+      "id": "18325205548304650",
+      "type": "VIDEO",
+      "postedAt": "2026-11-27T09:35:37+0000",
+      "permalink": "https://www.instagram.com/reel/DgPXt9rRrY_/",
+      "caption": "Which glass is yours: 1, 2 or 3?",
+      "views": 770,
+      "reach": 79,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 7462,
+      "reels_skip_rate": 6.4
     },
     {
       "id": "18122976826963860",
@@ -391,31 +439,15 @@
       "postedAt": "2026-11-25T18:28:33+0000",
       "permalink": "https://www.instagram.com/reel/DgLLIkDvMbp/",
       "caption": "Which icicle falls first?",
-      "views": 520,
-      "reach": 396,
+      "views": 534,
+      "reach": 407,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 5980,
-      "reels_skip_rate": 54.1
-    },
-    {
-      "id": "17908124595669572",
-      "type": "VIDEO",
-      "postedAt": "2026-11-12T14:50:58+0000",
-      "permalink": "https://www.instagram.com/reel/DfpT4cLHFVb/",
-      "caption": "be honest… did you catch it on the first watch? 👀☕",
-      "views": 329,
-      "reach": 251,
-      "likes": 1,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 1,
-      "ig_reels_avg_watch_time": 7621,
-      "reels_skip_rate": 49.8
+      "ig_reels_avg_watch_time": 6081,
+      "reels_skip_rate": 53.8
     },
     {
       "id": "17976332679176794",
@@ -446,7 +478,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 5028,
+      "ig_reels_avg_watch_time": 5009,
       "reels_skip_rate": 60.1
     },
     {
@@ -498,36 +530,20 @@
       "reels_skip_rate": 56.8
     },
     {
-      "id": "17901449001457768",
-      "type": "VIDEO",
-      "postedAt": "2026-11-26T14:33:32+0000",
-      "permalink": "https://www.instagram.com/reel/DgNVBIvgKH7/",
-      "caption": "Who used the mic last: Tess, Darla or Gus?",
-      "views": 187,
-      "reach": 115,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 0,
-      "ig_reels_avg_watch_time": 9091,
-      "reels_skip_rate": 33.1
-    },
-    {
       "id": "18473949307186395",
       "type": "VIDEO",
       "postedAt": "2026-11-26T09:30:48+0000",
       "permalink": "https://www.instagram.com/reel/DgMyXikxQuX/",
       "caption": "Which two can't both be true: 1, 2 or 3?",
-      "views": 176,
-      "reach": 149,
+      "views": 185,
+      "reach": 155,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "ig_reels_avg_watch_time": 4255,
-      "reels_skip_rate": 60.3
+      "ig_reels_avg_watch_time": 4418,
+      "reels_skip_rate": 59.9
     },
     {
       "id": "18043730396845359",
@@ -578,22 +594,6 @@
       "reels_skip_rate": 51.4
     },
     {
-      "id": "18122037337752170",
-      "type": "VIDEO",
-      "postedAt": "2026-11-12T16:31:32+0000",
-      "permalink": "https://www.instagram.com/reel/DfpfY7QESyW/",
-      "caption": "which room would your group search first? 🔦💜",
-      "views": 163,
-      "reach": 136,
-      "likes": 1,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 1,
-      "ig_reels_avg_watch_time": 4464,
-      "reels_skip_rate": 56.3
-    },
-    {
       "id": "17955054309324210",
       "type": "VIDEO",
       "postedAt": "2026-11-19T18:29:04+0000",
@@ -622,7 +622,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 4215,
+      "ig_reels_avg_watch_time": 4187,
       "reels_skip_rate": 62.6
     },
     {
@@ -706,6 +706,22 @@
       "reels_skip_rate": 58.7
     },
     {
+      "id": "18106099130457233",
+      "type": "VIDEO",
+      "postedAt": "2026-11-26T12:27:58+0000",
+      "permalink": "https://www.instagram.com/reel/DgNGqYaNjau/",
+      "caption": "Which one are you: SHOOT, SEARCH or ASK? Tag your friends.",
+      "views": 132,
+      "reach": 128,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 4182,
+      "reels_skip_rate": 41.3
+    },
+    {
       "id": "18169505080475104",
       "type": "VIDEO",
       "postedAt": "2026-11-12T21:48:08+0000",
@@ -720,22 +736,6 @@
       "total_interactions": 0,
       "ig_reels_avg_watch_time": 4919,
       "reels_skip_rate": 53.8
-    },
-    {
-      "id": "18106099130457233",
-      "type": "VIDEO",
-      "postedAt": "2026-11-26T12:27:58+0000",
-      "permalink": "https://www.instagram.com/reel/DgNGqYaNjau/",
-      "caption": "Which one are you: SHOOT, SEARCH or ASK? Tag your friends.",
-      "views": 126,
-      "reach": 122,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 0,
-      "ig_reels_avg_watch_time": 4161,
-      "reels_skip_rate": 43.3
     },
     {
       "id": "18034769249882095",
@@ -766,7 +766,7 @@
       "shares": 0,
       "saved": 0,
       "total_interactions": 1,
-      "ig_reels_avg_watch_time": 6102,
+      "ig_reels_avg_watch_time": 6072,
       "reels_skip_rate": 44.4
     },
     {
