@@ -1357,10 +1357,19 @@
       "file": "omc-auto-20261127-lunch-thief.mp4",
       "caption": "Who ate the hot-sauce sandwich: desk 1, 2 or 3?\nOne desk gives it away. Rewatch before you answer.\nSet in the Night Owls radio station from Dead Air. First case is free, plays in your browser with friends. Link in bio.\n#mystery #boardgame #gamenight #puzzle #officelife",
       "publishAt": "2026-11-27T12:40:41.783Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-27T12:41:55.097Z",
+      "mediaId": "17918377824552265",
+      "permalink": "https://www.instagram.com/reel/DgPtBWWNhxx/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgPtGg_y4Gt"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
