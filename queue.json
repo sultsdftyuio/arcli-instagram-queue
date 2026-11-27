@@ -1377,10 +1377,19 @@
       "file": "omc-auto-20261127-still-stuck.mp4",
       "caption": "Has a vending machine ever done this to you?\nWait for the last shot.\nSet in the lab lobby from The Last Message. First case is free, plays in your browser with friends. Link in bio.\n#vendingmachine #relatable #mystery #gamenight #boardgame",
       "publishAt": "2026-11-27T14:33:05.715Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-27T14:34:26.243Z",
+      "mediaId": "18107172110029078",
+      "permalink": "https://www.instagram.com/reel/DgP55pKtRh_/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgP5-Sgu65n"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
