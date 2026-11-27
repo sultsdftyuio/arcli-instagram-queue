@@ -1297,10 +1297,19 @@
       "file": "omc-auto-20261127-just-soaking.mp4",
       "caption": "Send this to the coworker who leaves it to soak.\nWatch the coral mug. It was the first one in.\nSet in the lab from The Last Message. First case is free, plays in your browser with friends. Link in bio.\n#officelife #dishes #mystery #gamenight #boardgame",
       "publishAt": "2026-11-27T03:33:36.924Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-27T03:34:41.196Z",
+      "mediaId": "18105373829546144",
+      "permalink": "https://www.instagram.com/reel/DgOuZ0KIKva/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgOueNzTfFQ"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
