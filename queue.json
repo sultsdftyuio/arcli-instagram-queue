@@ -1317,10 +1317,19 @@
       "file": "omc-auto-20261127-butter-side.mp4",
       "caption": "Has your toast ever landed butter side up?\nWatch the last snowflake.\nSet in the snowed-in mountain lodge from Snowed In. First case is free, plays in your browser with friends. Link in bio.\n#mystery #gamenight #boardgame #murphyslaw #puzzle",
       "publishAt": "2026-11-27T06:33:30.505Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-27T06:34:51.690Z",
+      "mediaId": "17969185043981730",
+      "permalink": "https://www.instagram.com/reel/DgPDCzNpc10/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgPDF5hpb1y"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
