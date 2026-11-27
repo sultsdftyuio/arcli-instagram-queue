@@ -1397,10 +1397,19 @@
       "file": "omc-auto-20261127-which-block.mp4",
       "caption": "Which block is safe to pull: 2 or 3?\nOne of them already told you. Rewatch before you answer.\nSet in the snowed-in lodge from Snowed In. First case is free, plays in your browser with friends. Link in bio.\n#gamenight #puzzle #mystery #boardgame",
       "publishAt": "2026-11-27T18:31:06.402Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-27T18:32:39.927Z",
+      "mediaId": "18005218194008750",
+      "permalink": "https://www.instagram.com/reel/DgQVJGEzkNS/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgQVPG2sD4b"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
