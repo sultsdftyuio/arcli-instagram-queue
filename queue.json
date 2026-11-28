@@ -1417,10 +1417,22 @@
       "file": "omc-auto-20261128-is-it-cake.mp4",
       "caption": "Is it cake: 2 or 3?\nThe first three rounds teach you the trick. Rewatch before you answer.\nSet in the kitchen of Maison Lune from The Last Course. First case is free, plays in your browser with friends. Link in bio.\n#isitcake #cake #mystery #puzzle #gamenight",
       "publishAt": "2026-11-28T03:35:00.408Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
+        "threads": "posted",
         "tiktok": "pending"
+      },
+      "postedAt": "2026-11-28T03:36:03.381Z",
+      "mediaId": "17907355047606162",
+      "permalink": "https://www.instagram.com/reel/DgRTWkruOu7/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgRTbM1gUJQ"
+      },
+      "crossTries": {
+        "tiktok": 1
+      },
+      "crossError": {
+        "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
     }
   ]
