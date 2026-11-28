@@ -1492,7 +1492,7 @@
       "status": "posted",
       "cross": {
         "threads": "posted",
-        "tiktok": "pending"
+        "tiktok": "drafted"
       },
       "postedAt": "2026-11-28T12:35:17.339Z",
       "mediaId": "18113494625640150",
@@ -1505,6 +1505,9 @@
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     },
     {
@@ -1512,10 +1515,19 @@
       "file": "omc-auto-20261128-phone-stack.mp4",
       "caption": "Send this to the friend whose phone never stops.\nPhones down, first to touch pays. Guess who's paying.\nFirst case is free, plays in your browser with friends. Link in bio.\n#gamenight #friends #dinner #mystery #boardgame",
       "publishAt": "2026-11-28T14:36:12.754Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
-        "tiktok": "pending"
+        "threads": "posted",
+        "tiktok": "drafted"
+      },
+      "postedAt": "2026-11-28T14:37:34.250Z",
+      "mediaId": "18122700469952952",
+      "permalink": "https://www.instagram.com/reel/DgSfDsgSt-p/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgSfMx9gvQA"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     }
   ]
