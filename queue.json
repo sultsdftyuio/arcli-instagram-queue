@@ -1469,7 +1469,7 @@
       "status": "posted",
       "cross": {
         "threads": "posted",
-        "tiktok": "pending"
+        "tiktok": "failed"
       },
       "postedAt": "2026-11-28T09:37:41.488Z",
       "mediaId": "17960017302270561",
@@ -1478,7 +1478,7 @@
         "threads": "https://www.threads.com/@onemoreclue1/post/DgR83R2BXEL"
       },
       "crossTries": {
-        "tiktok": 2
+        "tiktok": 3
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
@@ -1489,10 +1489,22 @@
       "file": "omc-auto-20261128-lit-first.mp4",
       "caption": "Which candle was lit first: 1, 2 or 3?\nThey didn't start the same height. Rewatch before you answer.\nSet in the Night Owls radio station from Dead Air. First case is free, plays in your browser with friends. Link in bio.\n#mystery #puzzle #brainteaser #gamenight #boardgame",
       "publishAt": "2026-11-28T12:33:12.785Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
+        "threads": "posted",
         "tiktok": "pending"
+      },
+      "postedAt": "2026-11-28T12:35:17.339Z",
+      "mediaId": "18113494625640150",
+      "permalink": "https://www.instagram.com/reel/DgSREUJyJtI/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgSRIrZNSKd"
+      },
+      "crossTries": {
+        "tiktok": 1
+      },
+      "crossError": {
+        "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
     }
   ]
