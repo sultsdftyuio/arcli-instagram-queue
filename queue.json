@@ -1457,6 +1457,17 @@
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
+    },
+    {
+      "id": "omc-auto-20261128-advent",
+      "file": "omc-auto-20261128-advent.mp4",
+      "caption": "Which door do they open next? Comment the number.\nIt isn't even December. Every door they opened is on screen, so check the pattern before you answer.\nFirst case is free, plays in your browser with friends. Link in bio.\n#adventcalendar #puzzle #mystery #gamenight #boardgame",
+      "publishAt": "2026-11-28T09:36:00.851Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
