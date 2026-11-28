@@ -1506,6 +1506,17 @@
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
+    },
+    {
+      "id": "omc-auto-20261128-phone-stack",
+      "file": "omc-auto-20261128-phone-stack.mp4",
+      "caption": "Send this to the friend whose phone never stops.\nPhones down, first to touch pays. Guess who's paying.\nFirst case is free, plays in your browser with friends. Link in bio.\n#gamenight #friends #dinner #mystery #boardgame",
+      "publishAt": "2026-11-28T14:36:12.754Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
