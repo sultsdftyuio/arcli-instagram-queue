@@ -1429,7 +1429,7 @@
         "threads": "https://www.threads.com/@onemoreclue1/post/DgRTbM1gUJQ"
       },
       "crossTries": {
-        "tiktok": 1
+        "tiktok": 2
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
@@ -1440,10 +1440,22 @@
       "file": "omc-auto-20261128-keys-boot.mp4",
       "caption": "Where did the car keys go?\nThey're on screen the whole time. Rewatch before you answer.\nFirst case is free, plays in your browser with friends. Link in bio.\n#mystery #puzzle #gamenight #roadtrip #boardgame",
       "publishAt": "2026-11-28T06:33:56.796Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
+        "threads": "posted",
         "tiktok": "pending"
+      },
+      "postedAt": "2026-11-28T06:34:55.149Z",
+      "mediaId": "18039885566892474",
+      "permalink": "https://www.instagram.com/reel/DgRn10LOtLX/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgRn5ZQyleM"
+      },
+      "crossTries": {
+        "tiktok": 1
+      },
+      "crossError": {
+        "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
     }
   ]
