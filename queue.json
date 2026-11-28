@@ -1483,6 +1483,17 @@
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
+    },
+    {
+      "id": "omc-auto-20261128-lit-first",
+      "file": "omc-auto-20261128-lit-first.mp4",
+      "caption": "Which candle was lit first: 1, 2 or 3?\nThey didn't start the same height. Rewatch before you answer.\nSet in the Night Owls radio station from Dead Air. First case is free, plays in your browser with friends. Link in bio.\n#mystery #puzzle #brainteaser #gamenight #boardgame",
+      "publishAt": "2026-11-28T12:33:12.785Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
