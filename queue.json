@@ -1420,7 +1420,7 @@
       "status": "posted",
       "cross": {
         "threads": "posted",
-        "tiktok": "pending"
+        "tiktok": "drafted"
       },
       "postedAt": "2026-11-28T03:36:03.381Z",
       "mediaId": "17907355047606162",
@@ -1433,6 +1433,9 @@
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
+      },
+      "crossNote": {
+        "tiktok": "in your TikTok inbox: open the notification, add the caption and post it"
       }
     },
     {
@@ -1452,7 +1455,7 @@
         "threads": "https://www.threads.com/@onemoreclue1/post/DgRn5ZQyleM"
       },
       "crossTries": {
-        "tiktok": 1
+        "tiktok": 2
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
@@ -1463,10 +1466,22 @@
       "file": "omc-auto-20261128-advent.mp4",
       "caption": "Which door do they open next? Comment the number.\nIt isn't even December. Every door they opened is on screen, so check the pattern before you answer.\nFirst case is free, plays in your browser with friends. Link in bio.\n#adventcalendar #puzzle #mystery #gamenight #boardgame",
       "publishAt": "2026-11-28T09:36:00.851Z",
-      "status": "approved",
+      "status": "posted",
       "cross": {
-        "threads": "pending",
+        "threads": "posted",
         "tiktok": "pending"
+      },
+      "postedAt": "2026-11-28T09:37:41.488Z",
+      "mediaId": "17960017302270561",
+      "permalink": "https://www.instagram.com/reel/DgR8utwKv9w/",
+      "crossUrl": {
+        "threads": "https://www.threads.com/@onemoreclue1/post/DgR83R2BXEL"
+      },
+      "crossTries": {
+        "tiktok": 1
+      },
+      "crossError": {
+        "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
     }
   ]
