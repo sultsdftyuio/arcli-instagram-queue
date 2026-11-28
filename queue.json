@@ -1446,7 +1446,7 @@
       "status": "posted",
       "cross": {
         "threads": "posted",
-        "tiktok": "pending"
+        "tiktok": "failed"
       },
       "postedAt": "2026-11-28T06:34:55.149Z",
       "mediaId": "18039885566892474",
@@ -1455,7 +1455,7 @@
         "threads": "https://www.threads.com/@onemoreclue1/post/DgRn5ZQyleM"
       },
       "crossTries": {
-        "tiktok": 2
+        "tiktok": 3
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
@@ -1478,7 +1478,7 @@
         "threads": "https://www.threads.com/@onemoreclue1/post/DgR83R2BXEL"
       },
       "crossTries": {
-        "tiktok": 1
+        "tiktok": 2
       },
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
