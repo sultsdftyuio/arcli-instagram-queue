@@ -1434,6 +1434,17 @@
       "crossError": {
         "tiktok": "POST /v2/post/publish/inbox/video/init/: spam_risk_too_many_pending_share"
       }
+    },
+    {
+      "id": "omc-auto-20261128-keys-boot",
+      "file": "omc-auto-20261128-keys-boot.mp4",
+      "caption": "Where did the car keys go?\nThey're on screen the whole time. Rewatch before you answer.\nFirst case is free, plays in your browser with friends. Link in bio.\n#mystery #puzzle #gamenight #roadtrip #boardgame",
+      "publishAt": "2026-11-28T06:33:56.796Z",
+      "status": "approved",
+      "cross": {
+        "threads": "pending",
+        "tiktok": "pending"
+      }
     }
   ]
 }
